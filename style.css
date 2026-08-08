@@ -1360,7 +1360,7 @@ textarea {
   }
   .main {
     flex-wrap: wrap;
-    justify-content: center;
+    //justify-content: center;
   }
   .main img{
     margin-right: 20px;
@@ -1378,6 +1378,9 @@ textarea {
   nav a {
     padding: 10px;
     font-size: 12px;
+  }
+  .motto{
+    font-size: 14px;
   }
   
   
