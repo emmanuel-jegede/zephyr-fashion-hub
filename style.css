@@ -1360,7 +1360,6 @@ textarea {
   }
   .main {
     flex-wrap: wrap;
-    //justify-content: center;
   }
   .main img{
     margin-right: 20px;
@@ -1381,6 +1380,20 @@ textarea {
   }
   .motto{
     font-size: 14px;
+  }
+  .fash{
+    font-size: 1rem;
+  }
+  .def{
+    font-size: 100px;
+  }
+  .you{
+    font-size: 100px;
+  }
+  .fourth{
+    font-size: 15px;
+    max-width: 400px;
+    width: 100%;
   }
   
   
