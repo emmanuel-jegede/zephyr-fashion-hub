@@ -1350,10 +1350,10 @@ textarea {
     grid-template-columns: repeat(3, 1fr);
   }
   .head{
-    font-size: 10px;
+    font-size: 20px;
   }
   .log{
-    font-size: 0.2rem;
+    font-size: 1rem;
   }
     .nav {
     padding: 30px;
