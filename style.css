@@ -29,7 +29,7 @@ body {
 }
 h1 {
   color: white;
-  width: 20%;
+  //width: 20%;
 }
 .head {
   font-size: 55px;
@@ -1362,6 +1362,9 @@ textarea {
     flex-wrap: wrap;
     justify-content: center;
   }
+  .main img{
+    margin-right: 20px;
+  }
   h1 {
     width: auto;
     flex: 1 1 auto;
@@ -1373,12 +1376,18 @@ textarea {
     gap: 5px;
   }
   nav a {
-    padding: 0.7rem;
-    font-size: 14px;
+    padding: 10px;
+    font-size: 12px;
   }
+  
+  
+  
   .collection-hero{
     padding: 30px;
   }
+  
+  
+  
   .fashion-education-hero{
     padding: 30px;
   }
