@@ -1349,6 +1349,28 @@ textarea {
   .featured-images{
     grid-template-columns: repeat(4, 1fr);
   }
+    .nav {
+    padding: 30px;
+  }
+  .main {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  h1 {
+    width: auto;
+    flex: 1 1 auto;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0;
+    gap: 5px;
+  }
+  nav a {
+    padding: 0.7rem;
+    font-size: 14px;
+  }
 }
 
 
