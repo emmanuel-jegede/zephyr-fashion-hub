@@ -15,7 +15,6 @@ body {
 }
 .container {
   margin: 0px auto;
-   /*max-width: 1440px; */
   width: 100%;
 }
 .motto {
@@ -123,9 +122,6 @@ nav a:hover {
   color: green;
   border-bottom: 4px solid green;
 }
-
-
-
 
 .shop {
   background: black;
@@ -439,14 +435,6 @@ marquee {
   border: 2px solid black;
   transform: scale(1.2);
 }
-/*.learn {
-  margin-top: 40px;
-}
-.learn:hover {
-  color: #f0f0f0;
-  background: hsl(0, 0%, 20%);
-  border: 2px solid black;
-}*/
 
 .badge {
   position: absolute;
@@ -460,7 +448,6 @@ marquee {
 .section4 {
   background: black;
   color: white;
-  /* margin: -40px 30px; */
   padding: 20px;
 }
 .info-line1 {
@@ -580,7 +567,6 @@ marquee {
 .about-hero {
   background: black;
   padding: 30px;
-  /* margin: 30px; */
   background-image: url("./assets/images/aboutbackground2.png");
   background-repeat: no-repeat;
   background-position: right 0rem top 0rem;
@@ -636,7 +622,6 @@ marquee {
 }
 .about-main {
   background: white;
-  /* margin: -30px 30px; */
   padding: 30px;
   display: flex;
   justify-content: center;
@@ -900,7 +885,6 @@ marquee {
   font-family: "Montserrat", sans-serif;
 }
 .about-footer {
-  /* margin: 30px; */
   background: black;
   color: white;
   padding: 30px;
@@ -931,7 +915,6 @@ marquee {
   margin-right: 40px;
 }
 .contact-form {
-  /* background: green; */
   border-radius: 50px;
   margin: 70px;
   padding: 40px;
@@ -1324,7 +1307,7 @@ textarea {
 }
 .featured-images{
   text-align: center;
-  gap: 50px;
+  gap: 30px;
 }
 .featured-images h4{
   padding: 10px;
@@ -2141,6 +2124,10 @@ textarea {
   }
   .fashion-edu-learn > div{
     grid-template-columns: repeat(2, 1fr);
+  }
+  .fashion-edu img{
+    width: 60px;
+    height: 60px;
   }
   .fashion-edu-learn h2{
     font-size: 30px;
