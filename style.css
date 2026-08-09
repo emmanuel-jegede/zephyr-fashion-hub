@@ -1503,6 +1503,7 @@ textarea {
   }
   
   
+  /*====== About Page =====*/
   .about-hero1 p:nth-child(2){
     font-size: 60px;
   }
@@ -1510,6 +1511,91 @@ textarea {
     max-width: 400px;
     width: 100%;
     font-size: 15px;
+  }
+  .about-main p:first-of-type{
+    font-size: 20px;
+  }
+  .about-main h2:first-of-type{
+    font-size: 30px;
+  }
+  .about-main h2:last-of-type{
+    font-size: 30px;
+  }
+  .about-main p:nth-of-type(2){
+    font-size: 14px;
+    max-width: 400px;
+    width: 100%;
+  }
+  .about-main p:last-of-type{
+    font-size: 14px;
+    max-width: 400px;
+    width: 100%;
+  }
+  .about-mission img{
+    width: 70px;
+    height: 70px;
+  }
+  .mission{
+    padding: 10px;
+  }
+  .mission h3{
+    font-size: 13px;
+  }
+  .mission p{
+    font-size: 13px;
+  }
+  .vision{
+    padding: 10px;
+  }
+  .vision h3{
+    font-size: 13px;
+  }
+  .vision h3{
+    font-size: 13px;
+  }
+  .about-value{
+    margin: 10rem 4rem;
+  }
+  .about-value img{
+    width: 70px;
+    height: 70px;
+  }
+  .about-value-content h3{
+    font-size: 15px;
+  }
+  .about-value-content p{
+    font-size: 10px;
+  }
+  .journey{
+    margin: 7rem 4rem;
+  }
+  .item h3{
+    font-size: 13px;
+  }
+  .item h4{
+    font-size: 13px;
+  }
+  .item p{
+    font-size: 10px;
+  }
+  .item1 h3{
+    font-size: 13px;
+  }
+  .item1 h4{
+    font-size: 13px;
+  }
+  .item1 p{
+    font-size: 10px;
+  }
+  .about-reason img{
+    width: 70px;
+    height: 70px;
+  }
+  .about-reason-details h3{
+    font-size: 15px;
+  }
+  .about-reason-details p{
+    font-size: 10px;
   }
 }
 
