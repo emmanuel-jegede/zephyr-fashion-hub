@@ -472,13 +472,11 @@ marquee {
 }
 .inbox {
   display: flex;
+  align-items: center;
 }
 .inbox img {
   height: 200px;
   width: 200px;
-}
-.inbox .inbox-message {
-  transform: translateY(40px);
 }
 .newsletter {
   display: flex;
@@ -1458,9 +1456,14 @@ textarea {
   }
   .info1 .p1{
     font-size: 25px;
+    padding-bottom: 10px;
   }
   .info1 .p2{
     font-size: 12px;
+  }
+  .inbox img{
+    height: 100px;
+    width: 100px;
   }
   .info-line2{
     padding: 40px;
