@@ -1477,9 +1477,23 @@ textarea {
   }
   
   
-  
+  /*====== Collection Page=====*/
+  .collection-def{
+    font-size: 60px;
+  }
+  .collection-fourth{
+    font-size: 15px;
+    max-width: 400px;
+    width: 100%;
+  }
+  .featured-collection-section h2{
+    font-size: 40px;
+  }
   .collection-hero{
     padding: 30px;
+  }
+  .motto-collection{
+    font-size: 14px;
   }
   
   
