@@ -1550,7 +1550,7 @@ textarea {
   .vision h3{
     font-size: 13px;
   }
-  .vision h3{
+  .vision p{
     font-size: 13px;
   }
   .about-value{
@@ -1596,6 +1596,61 @@ textarea {
   }
   .about-reason-details p{
     font-size: 10px;
+  }
+  
+  
+  /*====== Featured Education =======*/
+  .fashion-fash{
+    font-size: 1rem;
+  }
+  .fashion-you{
+    font-size: 60px;
+  }
+  .fashion-def{
+    font-size: 60px;
+  }
+  .fashion-fourth{
+    max-width: 400px;
+    width: 100%;
+    font-size: 15px;
+  }
+  .fashion-education-main1 h3{
+    font-size: 15px;
+  }
+  .fashion-education-main1 h2{
+    font-size: 35px;
+  }
+  .fashion-education-main1 p:first-of-type{
+    font-size: 15px;
+  }
+  .fashion-education-main1 p:nth-of-type(2){
+    font-size: 15px;
+  }
+  .fashion-edu img{
+    width: 70px;
+    height: 70px;
+  }
+  .fashion-edu h3{
+    font-size: 13px;
+  }
+  .fashion-edu p{
+    font-size: 13px;
+  }
+  .fashion-edu-learn h2{
+    font-size: 30px;
+  }
+  .edu-learn{
+    padding: 10px;
+  }
+  .edu-learn img{
+    width: 70px;
+    height: 70px;
+  }
+  .edu-learn h3{
+    font-size: 15px;
+  }
+  .edu-learn p{
+    font-size: 13px;
   }
 }
 
