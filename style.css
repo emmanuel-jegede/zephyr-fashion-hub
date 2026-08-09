@@ -1395,6 +1395,39 @@ textarea {
     max-width: 400px;
     width: 100%;
   }
+  .aside img{
+    height: 70px;
+    width: 70px;
+    margin-right: 15px;
+  }
+  .aside1 p:first-child{
+    font-size: 20px;
+  }
+  .aside p:last-child{
+    font-size: 13px;
+  }
+  .education-icon img{
+    width: 90px;
+    height: 90px;
+  }
+  .education-icon span{
+    font-size: 17px;
+  }
+  .education-icon h2{
+    font-size: 25px;
+  }
+  .education-text p{
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .education-list ul{
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .learn-btn{
+    font-size: 20px;
+    padding: 10px;
+  }
   
   
   
