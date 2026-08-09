@@ -1652,6 +1652,55 @@ textarea {
   .edu-learn p{
     font-size: 13px;
   }
+  .fashion-edu-approach h2{
+    font-size: 30px;
+  }
+  .fashion-edu-approach > div{
+    padding: 10px;
+  }
+  .edu-approach img{
+    width: 70px;
+    height: 70px;
+  }
+  .edu-approach{
+    padding: 10px;
+  }
+  .edu-approach h3{
+    font-size: 13px;
+  }
+  .edu-approach p{
+    font-size: 10px;
+  }
+  .fashion-edu-whychoose{
+    padding: 30px;
+  }
+  .fashion-edu-whychoose h2{
+    font-size: 30px;
+  }
+  .fashion-edu-whychoose > div{
+    margin: 1rem;
+  }
+  .edu-whychoose{
+    padding: 10px;
+  }
+  .edu-whychoose h3{
+    font-size: 13px;
+  }
+  .edu-whychoose p{
+    font-size: 10px;
+  }
+  .fashion-education-cta{
+    margin: 1rem 3rem;
+  }
+  .fashion-education-cta h2{
+    font-size: 30px;
+  }
+  .fashion-education-cta p{
+    font-size: 15px;
+  }
+  .fashion-education-cta button{
+    font-size: 17px;
+  }
 }
 
 
