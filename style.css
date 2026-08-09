@@ -1452,6 +1452,9 @@ textarea {
   .about4 p:last-child{
     font-size: 12px;
   }
+  .info1{
+    width: 60%;
+  }
   .info1 .p1{
     font-size: 25px;
   }
