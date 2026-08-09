@@ -1501,6 +1501,16 @@ textarea {
   .fashion-education-hero{
     padding: 30px;
   }
+  
+  
+  .about-hero1 p:nth-child(2){
+    font-size: 60px;
+  }
+  .about-hero1 p:last-child{
+    max-width: 400px;
+    width: 100%;
+    font-size: 15px;
+  }
 }
 
 
