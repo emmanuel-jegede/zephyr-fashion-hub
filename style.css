@@ -635,7 +635,7 @@ marquee {
 .about-hero img {
   width: 100px;
   height: 100px;
-  margin-right: 40px;
+  margin-right: 10px;
 }
 .about-hero1 {
   margin-top: 100px;
@@ -1985,10 +1985,6 @@ textarea {
   }
   .about-hero1 p {
     width: 100%;
-    text-align: center;
-  }
-  .about-third {
-    margin-left: 4rem;
   }
   .about-main {
     flex-direction: column-reverse;
@@ -2433,6 +2429,11 @@ textarea {
   }
 
   /*====== About Page =======*/
+  .about-hero img{
+    width: 60px;
+    height: 60px;
+    margin-right: 0;
+  }
   .about-nav {
     flex-direction: column;
     align-items: center;
