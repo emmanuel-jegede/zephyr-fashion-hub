@@ -963,7 +963,7 @@ marquee {
 /* -- CONTACT PAGE -- */
 .contact-hero {
   background: black;
-  padding: 70px;
+  padding: 30px;
   padding-bottom: 150px;
 }
 .contact-hero img {
@@ -1299,7 +1299,7 @@ textarea {
 }
 .collection-hero {
   background: black;
-  padding: 70px;
+  padding: 40px !important;
   background-image: url("./assets/images/fashionedu.png");
   background-repeat: no-repeat;
   background-position: right 0rem top 0rem;
@@ -2110,6 +2110,9 @@ textarea {
  }
  
  /*=== Contact Page ===*/
+ .contact-hero nav{
+   margin: -30px;
+ }
   .contact-form{
    margin: 10px;
   }
@@ -2124,9 +2127,11 @@ textarea {
   .collection-hero{
     padding: 3rem;
   }
+  .collection-hero nav{
+    
+  }
   .motto-collection{
-    font-size: 1.5rem;
-    text-align: center;
+  font-size: 15px;
     margin-top: 7px;
     margin-bottom: 20px;
     font-family: "Montserrat", serif;
@@ -2632,6 +2637,14 @@ textarea {
   
   
   /*=== Contact Page ===*/
+  .contact-hero nav{
+    margin: -30px !important;
+  }
+  .contact-hero img{
+    width: 60px;
+    height: 60px;
+    margin-right: 0;
+  }
   .contact-form h2{
     font-size: 1.5rem;
   } 

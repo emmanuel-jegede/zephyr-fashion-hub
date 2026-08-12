@@ -6,11 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Collections Page </title>
   <link rel="stylesheet" href="style.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+/>
 </head>
 
 <body>
   <div class="collection-hero">
-    <div class="main">
+    <!--<div class="main">
       <img src="./assets/images/logo.jpg" alt="logo" />
       <h1>
         <span class="head">ZEPHYR</span>
@@ -24,7 +28,34 @@
         <a href="contact.html">CONTACT US</a>
         <a class="shop" href="#">SHOP NOW</a>
       </nav>
-    </div>
+    </div>-->
+    
+ <nav>
+        <img src="./assets/images/logo.jpg" alt="logo" />
+          <h1>
+            <span class="head">ZEPHYR</span>
+            <span class="log">FASHION HUB</span>
+          </h1>
+          <ul class="sidebar">
+            <li onclick=hideSidebar()> <a class="hamburger2" href="#"><i class="fa-solid fa-xmark"></i></a></li>
+           
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a href="./collections.html">COLLECTIONS</a></li>
+          <li><a href=" ./fashioneducation.html">FASHION EDUCATION</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+          <li><a class="shop" href="#">SHOP NOW</a></li>
+        </ul>
+         <ul>
+          <li class="hideOnMobile"><a href="index.html">HOME</a></li>
+          <li class="hideOnMobile"><a href="about.html">ABOUT US</a></li>
+          <li class="hideOnMobile"><a href="./collections.html">COLLECTIONS</a></li>
+          <li class="hideOnMobile"><a href=" ./fashioneducation.html">FASHION EDUCATION</a></li>
+          <li class="hideOnMobile"><a href="contact.html">CONTACT US</a></li>
+          <li class="hideOnMobile"><a class="shop" href="#">SHOP NOW</a></li>
+          <li class="menu-button" onclick=showSidebar()><a class="hamburger" href="#"><i class="fa-solid fa-bars"></i></a></li>
+        </ul> 
+      </nav>
     <p class="motto-collection">...elevating sustainable fashion</p>
     <div class="fashion-education-head">
       
@@ -253,7 +284,20 @@
         sustainable fashion |&nbsp;&nbsp;ActivateX Academy | &nbsp;&copy All Rights
         Reserved.</span>
     </div>
-  
+    
+    
+    <script >
+      function showSidebar() {
+  const sidebar = document.querySelector(".sidebar");
+  sidebar.classList.add("active");
+}
+
+function hideSidebar() {
+  const sidebar = document.querySelector(".sidebar");
+  sidebar.classList.remove("active");
+}
+    </script>
+    
   
 </body>
 
