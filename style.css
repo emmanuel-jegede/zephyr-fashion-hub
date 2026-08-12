@@ -1415,11 +1415,11 @@ textarea {
     .nav {
     padding: 30px;
   }
-  .main {
+  /*.main {
     flex-wrap: wrap;
-  }
-  .main img{
-    margin-right: 20px;
+  }*/
+  nav img{
+    margin-right: 10px;
   }
   h1 {
     width: auto;
@@ -1443,7 +1443,7 @@ textarea {
 }
   nav a {
     padding: 10px;
-    font-size: 12px;
+    font-size: 10px;
   }
   .motto{
     font-size: 14px;
