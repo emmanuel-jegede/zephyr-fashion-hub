@@ -7,6 +7,8 @@ function hideSidebar() {
   const sidebar = document.querySelector(".sidebar");
   sidebar.classList.remove("active");
 }
+
+
    const filterButtons = document.querySelectorAll(".filter-btn");
     const collectionItems = document.querySelectorAll(".collection-item");
     
