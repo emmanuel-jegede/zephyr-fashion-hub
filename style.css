@@ -587,6 +587,7 @@ marquee {
 .head {
     display: block;
 }
+
 .info-line2 img {
     width: 100px;
     height: 100px;
@@ -975,7 +976,7 @@ marquee {
     margin-right: 20px;
 }
 .contact-form {
-    border-radius: 50px;
+    border-radius: 30px;
     margin: 70px;
     padding: 40px;
 }
@@ -1110,45 +1111,45 @@ textarea {
     border: 3px solid green;
 }
 .send-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 
-  width: 190px;
-  width: 100%;
-  margin: 30px auto;
-  padding: 14px 24px;
+    width: 190px;
+    width: 100%;
+    margin: 30px auto;
+    padding: 14px 24px;
 
-  background: green;
-  color: #fff;
+    background: green;
+    color: #fff;
 
-  border: none;
-  border-radius: 8px;
+    border: none;
+    border-radius: 8px;
 
-  font-family: "Montserrat", sans-serif;
-  font-size: 13px;
-  font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
 
-  cursor: pointer;
+    cursor: pointer;
 
-  box-shadow: 0 6px 15px rgba(22, 138, 69, 0.25);
+    box-shadow: 0 6px 15px rgba(22, 138, 69, 0.25);
 
-  transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .send-btn i {
-  font-size: 13px;
+    font-size: 13px;
 }
 
 .send-btn:hover {
-  background: green;
-  transform: translateY(-2px);
-  box-shadow: 0 9px 20px rgba(22, 138, 69, 0.3);
+    background: green;
+    transform: translateY(-2px);
+    box-shadow: 0 9px 20px rgba(22, 138, 69, 0.3);
 }
 
 .send-btn:active {
-  transform: translateY(0);
+    transform: translateY(0);
 }
 
 /*===FASHION EDUCATION ====*/
@@ -1671,8 +1672,16 @@ textarea {
         height: 100px;
         width: 100px;
     }
+    .footer-logo {
+        display: flex;
+        align-items: center;
+        margin-top: -100px;
+    }
     .info-line2 {
         padding: 40px;
+    }
+    .info-line2 h2 {
+        margin-left: -20px;
     }
     .footer {
         margin-left: 30px;
@@ -2074,7 +2083,7 @@ textarea {
         transform: none;
     }
 
-    .info-line2 {
+    /*.info-line2 {
         flex-direction: column;
         align-items: center;
         text-align: center;
@@ -2085,9 +2094,91 @@ textarea {
 
     .footer {
         flex-direction: column;
+        display: grid;
         margin-left: 0;
         transform: none;
         text-align: center;
+    }*/
+
+    /* ===== PROFESSIONAL MOBILE FOOTER ===== */
+
+    .info-line2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 35px 20px 20px;
+    }
+
+    .info-line2 img {
+        width: 70px;
+        height: 70px;
+        margin: 0 0 12px;
+        border-radius: 10px;
+    }
+    .footer-logo {
+        display: flex;
+        margin-right: auto;
+        margin-left: 20px;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+
+    .info-line2 h2 {
+        margin: auto 20px;
+    }
+
+    .info-line2 .head {
+        font-size: 20px;
+    }
+
+    .info-line2 .log {
+        font-size: 18px;
+    }
+
+    .footer {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px 20px;
+        margin: 0;
+        transform: none;
+        text-align: left;
+    }
+
+    .links {
+        margin: 0;
+    }
+
+    .links .h {
+        font-size: 16px;
+        color: green;
+        margin-bottom: 12px;
+        padding-bottom: 0;
+    }
+
+    .links p {
+        margin-bottom: 8px;
+    }
+
+    .links a {
+        font-size: 13px;
+        color: #ddd;
+        line-height: 1.5;
+        transition: 0.2s ease;
+    }
+
+    .links a:hover {
+        color: green;
+    }
+
+    .copyright {
+        border-top: 1px solid #333;
+        margin-top: 20px;
+        padding: 20px 10px;
+        text-align: center;
+        font-size: 11px;
+        color: #888;
+        line-height: 1.6;
     }
 
     /* --ABOUT US-- */
@@ -2249,7 +2340,6 @@ textarea {
     .contact-form {
         margin: 30px auto;
         width: 90%;
-        a
     }
     input {
         width: 100%;
@@ -2257,12 +2347,20 @@ textarea {
     textarea {
         width: 100%;
     }
-    .contact-section{
-      flex-direction: column;
+    .contact-section {
+        flex-direction: column;
     }
-    .contact-cards{
-      width: 90%;
-      margin: 20px auto;
+    .contact-cards {
+        width: 90%;
+        margin: 20px auto;
+    }
+    .about-footer {
+        padding: 0;
+        margin: 0;
+    }
+
+    .about-footer .section4 {
+        padding: 20px;
     }
 
     /*===== Collection Page ====*/
@@ -2556,23 +2654,29 @@ textarea {
     .info-line2 {
         flex-direction: column;
         align-items: center;
-        text-align: center;
     }
-    .info-line2 img {
-        margin-left: 0 auto;
+    .footer-logo {
+        margin-left: 0;
+    }
+    .info-line2 .head {
+        padding-bottom: 10px;
+    }
+    .footer {
+        grid-template-columns: 1fr 1fr;
+        gap: 25px 15px;
     }
 
-    .footer {
-        flex-direction: column;
-        margin-left: 0;
-        transform: none;
-        text-align: center;
+    .links .h {
+        font-size: 15px;
     }
-    .footer .h {
-        font-size: 20px;
+
+    .links a {
+        font-size: 12px;
     }
-    .footer a {
-        font-size: 13px;
+
+    .info-line2 {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     /*====== About Page =======*/
