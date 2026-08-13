@@ -1,288 +1,325 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Collections Page</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        />
+    </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Collections Page </title>
-  <link rel="stylesheet" href="style.css" />
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-/>
-</head>
+    <body>
+        <div class="collection-hero">
+            <nav>
+                <img src="./assets/images/logo.jpg" alt="logo" />
+                <h1>
+                    <span class="head">ZEPHYR</span>
+                    <span class="log">FASHION HUB</span>
+                </h1>
+                <ul class="sidebar">
+                    <li onclick="hideSidebar()">
+                        <a class="hamburger2" href="#"
+                            ><i class="fa-solid fa-xmark"></i
+                        ></a>
+                    </li>
 
-<body>
-  <div class="collection-hero">
-      <nav>
-        <img src="./assets/images/logo.jpg" alt="logo" />
-          <h1>
-            <span class="head">ZEPHYR</span>
-            <span class="log">FASHION HUB</span>
-          </h1>
-          <ul class="sidebar">
-            <li onclick=hideSidebar()> <a class="hamburger2" href="#"><i class="fa-solid fa-xmark"></i></a></li>
-           
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="about.html">ABOUT US</a></li>
-          <li><a href="./collections.html">COLLECTIONS</a></li>
-          <li><a href=" ./fashioneducation.html">FASHION EDUCATION</a></li>
-          <li><a href="contact.html">CONTACT US</a></li>
-          <li><a class="shop" href="#">SHOP NOW</a></li>
-        </ul>
-         <ul>
-          <li class="hideOnMobile"><a href="index.html">HOME</a></li>
-          <li class="hideOnMobile"><a href="about.html">ABOUT US</a></li>
-          <li class="hideOnMobile"><a href="./collections.html">COLLECTIONS</a></li>
-          <li class="hideOnMobile"><a href=" ./fashioneducation.html">FASHION EDUCATION</a></li>
-          <li class="hideOnMobile"><a href="contact.html">CONTACT US</a></li>
-          <li class="hideOnMobile"><a class="shop" href="#">SHOP NOW</a></li>
-          <li class="menu-button" onclick=showSidebar()><a class="hamburger" href="#"><i class="fa-solid fa-bars"></i></a></li>
-        </ul> 
-      </nav>
-    <p class="motto-collection">...elevating sustainable fashion</p>
-    <div class="fashion-education-head">
-      
-      <h2 class="collection-def">OUR COLLECTION</h2>
-      
-      <p class="collection-fourth">
-        Explore premium, sustainable and timeless fashion for every occasion.
-      </p>
-      <a class="collection-explore" href="#">SHOP NOW</a>
-    </div>
-    
-  </div>
-  
-  <div class="featured-collection-section">
-    <h2>FEATURED COLLECTIONS</h2>
-    
-  
-      <div class="filter-buttons">
-        <button class="filter-btn active" data-filter="all">ALL</button>
-        <button class="filter-btn" data-filter="men">MEN</button>
-        <button class="filter-btn" data-filter="women">WOMEN</button>
-        <button class="filter-btn" data-filter="shoes">SHOES</button>
-        <button class="filter-btn" data-filter="accessories">ACCESSORIES</button>
-      </div>
-    
-    <div class="featured-images">
-      <div class="collection-item men">
-        <img src="./assets/collectionimages/shirt.jpg" alt="" />
-        
-          <h4>Classic white shirt</h4>
-        <p>₦23,800 <del>₦28,000</del></p>
-        <a href="#">VIEW DETAILS</a>
-        
-        
-      </div>
-      <div class="collection-item men">
-        <img src="./assets/collectionimages/shirt2.jpg" alt="" />
-        <h4>Ivory Executive Shirt</h4>
-        <p>₦25,500 <del>₦30,000</del></p>
-        <a href="#">VIEW DETAILS</a>
-      </div>
-      <div class="collection-item men">
-        <img src="./assets/collectionimages/shirt3.jpg" alt="" />
-        <h4>Royal Blue Performance Tee</h4>
-        <p>₦15,300 <del>₦18,000</del></p>
-        <a href="#">VIEW DETAILS</a>
-      </div>
-      <div class="collection-item men">
-        <img src="./assets/collectionimages/shirt4.jpg" alt="" />
-        <h4>Zephyr Signature Hoodie</h4>
-        <p>₦25,500 <del>₦30,000</del></p>
-        <a href="#">VIEW DETAILS</a>
-      </div>
-      <div class="collection-item men">
-        <img src="./assets/collectionimages/suit.jpg" alt="" />
-        <h4>Midnight Black Suit</h4>
-        <p>₦96,000</p>
-        <a href="#">VIEW DETAILS</a>
-      </div>
-      <div class="collection-item men">
-        <img src="./assets/collectionimages/suit2.jpg" alt="" />
-        <h4>Burgundy Prestige Suit</h4>
-        <p>₦100,000</p>
-        <a href="#">VIEW DETAILS</a>
-      </div>
-      <div class="collection-item men">
-        <img src="./assets/collectionimages/suit3.jpg" alt="" />
-        <h4>Wine Elite Suit</h4>
-        <p>₦105,000</p>
-        <a href="#">VIEW DETAILS</a>
-      </div>
-      
-      <div class="collection-item shoes">
-        <img src="./assets/collectionimages/greenshoe.jpg" alt="" />
-        <h4>Emrald Elegance Heels</h4>
-        <p>₦45,000</p>
-        <a href="#">VIEW DETAILS</a>
-      </div>
-      <div class="collection-item shoes" >
-        <img src="./assets/collectionimages/greenshoe2.jpg" alt="" />
-        <h4>Crystal Luxe Heels</h4>
-        <p>₦50,000</p>
-        <a href="#">VIEW DETAILS</a>
-      </div>
-      <div class="collection-item shoes">
-        <img src="./assets/collectionimages/greenshoe3.jpg" alt="" />
-        <h4>Golden Grace Heels</h4>
-        <p>₦48,000</p>
-        <a href="#">VIEW DETAILS</a>
-      </div>
-      <div class="collection-item shoes">
-        <img src="./assets/collectionimages/menshoe.jpg" alt="" />
-        <h4>Heritage Leather Loafers</h4>
-        <p>₦42,000</p>
-        <a href="#">VIEW DETAILS</a>
-      </div>
-      <div class="collection-item shoes">
-        <img src="./assets/collectionimages/menshoe2.jpg" alt="" />
-        <h4>Executive Oxford Shoes</h4>
-        <p>₦25,000</p>
-        <a href="#">VIEW DETAILS</a>
-      </div>
-      <div class="collection-item shoes">
-        <img src="./assets/collectionimages/menshoe3.jpg" alt="" />
-        <h4>Classic Chelsea Shoes</h4>
-        <p>₦50,000</p>
-        <a href="#">VIEW DETAILS</a>
-      </div>
-      <div class="collection-item accessories">
-        <img src="./assets/collectionimages/brownwatch.jpg" alt="" />
-        <h4>Zephyr Prestige Watch</h4>
-        <p>₦40,000</p>
-        <a href="#">VIEW DETAILS</a>
-      </div>
-      <div class="collection-item accessories">
-        <img src="./assets/collectionimages/brownwatch2.jpg" alt="" />
-        <h4>Imperial Chronograph Watch</h4>
-        <p>₦45,000</p>
-        <a href="#">VIEW DETAILS</a>
-      </div>
-      <div class="collection-item men">
-        <img src="./assets/collectionimages/menchinos.jpg" alt="" />
-        <h4>Urban Signature Tee</h4>
-        <p>₦40,000</p>
-        <a href="#">VIEW DETAILS</a>
-      </div>
-      <div class="collection-item men">
-        <img src="./assets/collectionimages/menchinos2.jpg" alt="" />
-        <h4>Executive set</h4>
-        <p>₦130,000</p>
-        <a href="#">VIEW DETAILS</a>
-      </div>
-      <div class="collection-item men">
-        <img src="./assets/collectionimages/native.jpg" alt="" />
-        <h4>Royal Senator Wear</h4>
-        <p>₦75,000</p>
-        <a href="#">VIEW DETAILS</a>
-      </div>
-      <div class="collection-item men">
-        <img src="./assets/collectionimages/native2.jpg" alt="" />
-        <h4>Heritage Agbada Set</h4>
-        <p>₦70,000</p>
-        <a href="#">VIEW DETAILS</a>
-      </div>
-      <div class="collection-item women">
-        <img src="./assets/collectionimages/womensuit.jpg" alt="" />
-        <h4>Ivory Set</h4>
-        <p>₦12,000</p>
-        <a href="#">VIEW DETAILS</a>
-      </div>
-      <div class="collection-item women">
-        <img src="./assets/collectionimages/womengown.jpg" alt="" />
-        <h4>Midnight Gown</h4>
-        <p>₦17,000 <del> ₦20,000</del> </p>
-        <a href="#">VIEW DETAILS</a>
-      </div>
-      <div class="collection-item women">
-        <img src="./assets/collectionimages/womengown2.jpg" alt="" />
-        <h4>Royal Gown</h4>
-        <p>₦11,050 <del> ₦13,000</del></p>
-        <a href="#">VIEW DETAILS</a>
-      </div>
-      <div class="collection-item women">
-        <img src="./assets/collectionimages/womenwear.jpg" alt="" />
-        <h4>Sage set</h4>
-        <p>₦25,000 <del> ₦30,000</del></p>
-        <a href="#">VIEW DETAILS</a>
-      </div>
-      <div class="collection-item women">
-        <img src="./assets/collectionimages/womensuit2.jpg" alt="" />
-        <h4>Luma Set</h4>
-        <p>₦16,150 <del> ₦19,000</del><p>
-        <a href="#">VIEW DETAILS</a>
-      </div>
-    </div>
-  </div>
-  
-  <div class="section4">
-      <div class="info-line1">
-        <div class="info1">
-          <div class="inbox">
-            <img src="./assets/images/inbox.jpg" alt="" />
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="./collections.html">COLLECTIONS</a></li>
+                    <li>
+                        <a href=" ./fashioneducation.html">FASHION EDUCATION</a>
+                    </li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                    <li><a class="shop" href="#">SHOP NOW</a></li>
+                </ul>
+                <ul>
+                    <li class="hideOnMobile"><a href="index.html">HOME</a></li>
+                    <li class="hideOnMobile">
+                        <a href="about.html">ABOUT US</a>
+                    </li>
+                    <li class="hideOnMobile">
+                        <a href="./collections.html">COLLECTIONS</a>
+                    </li>
+                    <li class="hideOnMobile">
+                        <a href=" ./fashioneducation.html">FASHION EDUCATION</a>
+                    </li>
+                    <li class="hideOnMobile">
+                        <a href="contact.html">CONTACT US</a>
+                    </li>
+                    <li class="hideOnMobile">
+                        <a class="shop" href="#">SHOP NOW</a>
+                    </li>
+                    <li class="menu-button" onclick="showSidebar()">
+                        <a class="hamburger" href="#"
+                            ><i class="fa-solid fa-bars"></i
+                        ></a>
+                    </li>
+                </ul>
+            </nav>
+            <p class="motto-collection">...elevating sustainable fashion</p>
+            <div class="fashion-education-head">
+                <h2 class="collection-def">OUR COLLECTION</h2>
 
-            <div class="inbox-message">
-              <p class="p1">Stay Updated</p>
-              <p class="p2">
-                Suscribe to out newsletter and get updates on new arrivas,
-                exclusive offers and more.
-              </p>
+                <p class="collection-fourth">
+                    Explore premium, sustainable and timeless fashion for every
+                    occasion.
+                </p>
+                <a class="collection-explore" href="#">SHOP NOW</a>
             </div>
-          </div>
         </div>
 
-        <div class="newsletter">
-          <input
-            type="email"
-            id="email"
-            autocomplete="off"
-            placeholder="Enter your email address"
-            required
-          />
-          <button type="submit">SUSCRIBE</button>
-        </div>
-      </div>
-      <hr />
-      <div class="info-line2">
-        <img src="./assets/images/logo.jpg" alt="logo" />
-        <h2>
-          <span class="head">ZEPHYR</span>
-          <span class="log">FASHION HUB</span>
-        </h2>
-        <div class="footer">
-          <div class="links">
-            <p class="h">QUICK LINKS</p>
-            <p><a href="index.html">Home</a></p>
-            <p><a href="about.html">About Us</a></p>
-            <p><a href="#">Collections</a></p>
-            <p><a href="#">Services</a></p>
-            <p><a href="contact.html">Contact Us</a></p>
-          </div>
-          <div class="links">
-            <p class="h">CUSTOMER SERVICE</p>
-            <p><a href="#">Shopping & delivery</a></p>
-            <p><a href="#">Returns</a></p>
-            <p><a href="#">FAQs</a></p>
-          </div>
-          <div class="links">
-            <p class="h">CONTACT US</p>
-            <p><a href="#">+234 813 092 9152</a></p>
-            <p><a href="#">activatexacademy@gmail.com</a></p>
-          </div>
-        </div>
-      </div>
+        <div class="featured-collection-section">
+            <h2>FEATURED COLLECTIONS</h2>
 
-      <span class="copyright"> ...elevating
-        sustainable fashion |&nbsp;&nbsp;ActivateX Academy | &nbsp;&copy All Rights
-        Reserved.</span>
-    </div>
-    
-    
-    <script src="script.js"></script>
-    
-  
-</body>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">ALL</button>
+                <button class="filter-btn" data-filter="men">MEN</button>
+                <button class="filter-btn" data-filter="women">WOMEN</button>
+                <button class="filter-btn" data-filter="shoes">SHOES</button>
+                <button class="filter-btn" data-filter="accessories">
+                    ACCESSORIES
+                </button>
+            </div>
 
+            <div class="featured-images">
+                <div class="collection-item men">
+                    <img src="./assets/collectionimages/shirt.jpg" alt="" />
+
+                    <h4>Classic white shirt</h4>
+                    <p>₦23,800 <del>₦28,000</del></p>
+                    <a href="#">VIEW DETAILS</a>
+                </div>
+                <div class="collection-item men">
+                    <img src="./assets/collectionimages/shirt2.jpg" alt="" />
+                    <h4>Ivory Executive Shirt</h4>
+                    <p>₦25,500 <del>₦30,000</del></p>
+                    <a href="#">VIEW DETAILS</a>
+                </div>
+                <div class="collection-item men">
+                    <img src="./assets/collectionimages/shirt3.jpg" alt="" />
+                    <h4>Royal Blue Performance Tee</h4>
+                    <p>₦15,300 <del>₦18,000</del></p>
+                    <a href="#">VIEW DETAILS</a>
+                </div>
+                <div class="collection-item men">
+                    <img src="./assets/collectionimages/shirt4.jpg" alt="" />
+                    <h4>Zephyr Signature Hoodie</h4>
+                    <p>₦25,500 <del>₦30,000</del></p>
+                    <a href="#">VIEW DETAILS</a>
+                </div>
+                <div class="collection-item men">
+                    <img src="./assets/collectionimages/suit.jpg" alt="" />
+                    <h4>Midnight Black Suit</h4>
+                    <p>₦96,000</p>
+                    <a href="#">VIEW DETAILS</a>
+                </div>
+                <div class="collection-item men">
+                    <img src="./assets/collectionimages/suit2.jpg" alt="" />
+                    <h4>Burgundy Prestige Suit</h4>
+                    <p>₦100,000</p>
+                    <a href="#">VIEW DETAILS</a>
+                </div>
+                <div class="collection-item men">
+                    <img src="./assets/collectionimages/suit3.jpg" alt="" />
+                    <h4>Wine Elite Suit</h4>
+                    <p>₦105,000</p>
+                    <a href="#">VIEW DETAILS</a>
+                </div>
+
+                <div class="collection-item shoes">
+                    <img src="./assets/collectionimages/greenshoe.jpg" alt="" />
+                    <h4>Emrald Elegance Heels</h4>
+                    <p>₦45,000</p>
+                    <a href="#">VIEW DETAILS</a>
+                </div>
+                <div class="collection-item shoes">
+                    <img
+                        src="./assets/collectionimages/greenshoe2.jpg"
+                        alt=""
+                    />
+                    <h4>Crystal Luxe Heels</h4>
+                    <p>₦50,000</p>
+                    <a href="#">VIEW DETAILS</a>
+                </div>
+                <div class="collection-item shoes">
+                    <img
+                        src="./assets/collectionimages/greenshoe3.jpg"
+                        alt=""
+                    />
+                    <h4>Golden Grace Heels</h4>
+                    <p>₦48,000</p>
+                    <a href="#">VIEW DETAILS</a>
+                </div>
+                <div class="collection-item shoes">
+                    <img src="./assets/collectionimages/menshoe.jpg" alt="" />
+                    <h4>Heritage Leather Loafers</h4>
+                    <p>₦42,000</p>
+                    <a href="#">VIEW DETAILS</a>
+                </div>
+                <div class="collection-item shoes">
+                    <img src="./assets/collectionimages/menshoe2.jpg" alt="" />
+                    <h4>Executive Oxford Shoes</h4>
+                    <p>₦25,000</p>
+                    <a href="#">VIEW DETAILS</a>
+                </div>
+                <div class="collection-item shoes">
+                    <img src="./assets/collectionimages/menshoe3.jpg" alt="" />
+                    <h4>Classic Chelsea Shoes</h4>
+                    <p>₦50,000</p>
+                    <a href="#">VIEW DETAILS</a>
+                </div>
+                <div class="collection-item accessories">
+                    <img
+                        src="./assets/collectionimages/brownwatch.jpg"
+                        alt=""
+                    />
+                    <h4>Zephyr Prestige Watch</h4>
+                    <p>₦40,000</p>
+                    <a href="#">VIEW DETAILS</a>
+                </div>
+                <div class="collection-item accessories">
+                    <img
+                        src="./assets/collectionimages/brownwatch2.jpg"
+                        alt=""
+                    />
+                    <h4>Imperial Chronograph Watch</h4>
+                    <p>₦45,000</p>
+                    <a href="#">VIEW DETAILS</a>
+                </div>
+                <div class="collection-item men">
+                    <img src="./assets/collectionimages/menchinos.jpg" alt="" />
+                    <h4>Urban Signature Tee</h4>
+                    <p>₦40,000</p>
+                    <a href="#">VIEW DETAILS</a>
+                </div>
+                <div class="collection-item men">
+                    <img
+                        src="./assets/collectionimages/menchinos2.jpg"
+                        alt=""
+                    />
+                    <h4>Executive set</h4>
+                    <p>₦130,000</p>
+                    <a href="#">VIEW DETAILS</a>
+                </div>
+                <div class="collection-item men">
+                    <img src="./assets/collectionimages/native.jpg" alt="" />
+                    <h4>Royal Senator Wear</h4>
+                    <p>₦75,000</p>
+                    <a href="#">VIEW DETAILS</a>
+                </div>
+                <div class="collection-item men">
+                    <img src="./assets/collectionimages/native2.jpg" alt="" />
+                    <h4>Heritage Agbada Set</h4>
+                    <p>₦70,000</p>
+                    <a href="#">VIEW DETAILS</a>
+                </div>
+                <div class="collection-item women">
+                    <img src="./assets/collectionimages/womensuit.jpg" alt="" />
+                    <h4>Ivory Set</h4>
+                    <p>₦12,000</p>
+                    <a href="#">VIEW DETAILS</a>
+                </div>
+                <div class="collection-item women">
+                    <img src="./assets/collectionimages/womengown.jpg" alt="" />
+                    <h4>Midnight Gown</h4>
+                    <p>₦17,000 <del> ₦20,000</del></p>
+                    <a href="#">VIEW DETAILS</a>
+                </div>
+                <div class="collection-item women">
+                    <img
+                        src="./assets/collectionimages/womengown2.jpg"
+                        alt=""
+                    />
+                    <h4>Royal Gown</h4>
+                    <p>₦11,050 <del> ₦13,000</del></p>
+                    <a href="#">VIEW DETAILS</a>
+                </div>
+                <div class="collection-item women">
+                    <img src="./assets/collectionimages/womenwear.jpg" alt="" />
+                    <h4>Sage set</h4>
+                    <p>₦25,000 <del> ₦30,000</del></p>
+                    <a href="#">VIEW DETAILS</a>
+                </div>
+                <div class="collection-item women">
+                    <img
+                        src="./assets/collectionimages/womensuit2.jpg"
+                        alt=""
+                    />
+                    <h4>Luma Set</h4>
+                    <p>₦16,150 <del> ₦19,000</del></p>
+                    <p>
+                        <a href="#">VIEW DETAILS</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section4">
+            <div class="info-line1">
+                <div class="info1">
+                    <div class="inbox">
+                        <img src="./assets/images/inbox.jpg" alt="" />
+
+                        <div class="inbox-message">
+                            <p class="p1">Stay Updated</p>
+                            <p class="p2">
+                                Suscribe to out newsletter and get updates on
+                                new arrivas, exclusive offers and more.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="newsletter">
+                    <input
+                        type="email"
+                        id="email"
+                        autocomplete="off"
+                        placeholder="Enter your email address"
+                        required
+                    />
+                    <button type="submit">SUSCRIBE</button>
+                </div>
+            </div>
+            <hr />
+            <div class="info-line2">
+                <img src="./assets/images/logo.jpg" alt="logo" />
+                <h2>
+                    <span class="head">ZEPHYR</span>
+                    <span class="log">FASHION HUB</span>
+                </h2>
+                <div class="footer">
+                    <div class="links">
+                        <p class="h">QUICK LINKS</p>
+                        <p><a href="index.html">Home</a></p>
+                        <p><a href="about.html">About Us</a></p>
+                        <p><a href="#">Collections</a></p>
+                        <p><a href="#">Services</a></p>
+                        <p><a href="contact.html">Contact Us</a></p>
+                    </div>
+                    <div class="links">
+                        <p class="h">CUSTOMER SERVICE</p>
+                        <p><a href="#">Shopping & delivery</a></p>
+                        <p><a href="#">Returns</a></p>
+                        <p><a href="#">FAQs</a></p>
+                    </div>
+                    <div class="links">
+                        <p class="h">CONTACT US</p>
+                        <p><a href="#">+234 813 092 9152</a></p>
+                        <p><a href="#">activatexacademy@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <span class="copyright">
+                ...elevating sustainable fashion |&nbsp;&nbsp;ActivateX Academy
+                | &nbsp;&copy All Rights Reserved.</span
+            >
+        </div>
+
+        <script src="script.js"></script>
+    </body>
 </html>

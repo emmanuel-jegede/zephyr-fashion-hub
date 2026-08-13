@@ -3,2704 +3,2790 @@
 @import url("https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap");
 
 :root {
-  --primary: green;
+    --primary: green;
 }
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 body {
-  background: hsl(214, 17%, 92%);
+    background: hsl(214, 17%, 92%);
 }
 .container {
-  margin: 0px auto;
-  width: 100%;
+    margin: 0px auto;
+    width: 100%;
 }
 .motto {
-  color: white;
-  font-size: 1.75rem;
-  margin-top: 1.5rem;
-  font-family: "Montserrat", serif;
+    color: white;
+    font-size: 1.75rem;
+    margin-top: 1.5rem;
+    font-family: "Montserrat", serif;
 }
 nav {
-  display: flex;
-  align-items: center;
-  background: black;
-  position: fixed;
-  width: 100%;
-  margin: -70px;
-  padding: 20px;
-  z-index: 999;
+    display: flex;
+    align-items: center;
+    background: black;
+    position: fixed;
+    width: 100%;
+    margin: -70px;
+    padding: 20px;
+    z-index: 999;
 }
 h1 {
-  color: white;
-  //width: 20%;
+    color: white;
+    //width: 20%;
 }
 .head {
-  font-size: 55px;
-  font-family: "GFS Didot", serif;
+    font-size: 55px;
+    font-family: "GFS Didot", serif;
 }
 .log {
-  color: var(--primary);
-  font-family: "GFS Didot", serif;
-  font-size: 2rem;
+    color: var(--primary);
+    font-family: "GFS Didot", serif;
+    font-size: 2rem;
 }
 nav img {
-  width: 100px;
-  height: 100px;
-  margin-right: 40px;
-  margin-top: 0;
+    width: 100px;
+    height: 100px;
+    margin-right: 40px;
+    margin-top: 0;
 }
 .first {
-  color: var(--primary);
-  max-width: 700px;
-  width: 100%;
-  margin-top: 150px;
-  font-family: "Montserrat", sans-serif;
+    color: var(--primary);
+    max-width: 700px;
+    width: 100%;
+    margin-top: 150px;
+    font-family: "Montserrat", sans-serif;
 }
 .fash {
-  font-size: 2rem;
-  font-weight: bold;
+    font-size: 2rem;
+    font-weight: bold;
 }
 .you {
-  font-size: 150px;
-  font-weight: bold;
+    font-size: 150px;
+    font-weight: bold;
 }
 .def {
-  color: white;
-  font-size: 150px;
-  font-weight: bold;
+    color: white;
+    font-size: 150px;
+    font-weight: bold;
 }
 .fourth {
-  color: white;
-  max-width: 900px;
-  width: 100%;
-  line-height: 1.8;
-  margin-bottom: 20px;
-  font-family: "GFS Didot", serif;
-  font-size: 30px;
+    color: white;
+    max-width: 900px;
+    width: 100%;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-family: "GFS Didot", serif;
+    font-size: 30px;
 }
 .explore {
-  color: white;
-  background: green;
-  border-radius: 5px;
-  padding: 16px 34px;
-  text-decoration: none;
-  font-weight: bold;
-  margin-right: 20px;
-  font-family: "GFS Didot", serif;
-  transition: 0.3s ease;
-  font-size: 18px;
+    color: white;
+    background: green;
+    border-radius: 5px;
+    padding: 16px 34px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+    font-family: "GFS Didot", serif;
+    transition: 0.3s ease;
+    font-size: 18px;
 }
 .explore:hover {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
 .video {
-  border: 2px solid green;
-  color: white;
-  padding: 16px 34px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-family: "GFS Didot", serif;
-  font-size: 18px;
+    border: 2px solid green;
+    color: white;
+    padding: 16px 34px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "GFS Didot", serif;
+    font-size: 18px;
 }
 .nav {
-  background: black;
-  padding: 70px;
-  background-image: url("./assets/images/black2.jpg");
-  background-repeat: no-repeat;
-  background-position: right 0rem top 0rem;
-  padding-bottom: 150px;
+    background: black;
+    padding: 70px;
+    background-image: url("./assets/images/black2.jpg");
+    background-repeat: no-repeat;
+    background-position: right 0rem top 0rem;
+    padding-bottom: 150px;
 }
 
 nav ul {
-  margin-left: auto;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 nav ul a {
-  padding: 1rem;
-  font-size: 16px;
-  text-decoration: none;
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+    padding: 1rem;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
 }
 nav ul a:hover {
-  color: green;
-  border-bottom: 4px solid green;
+    color: green;
+    border-bottom: 4px solid green;
 }
 .sidebar {
-  position: fixed;
-  top: 0;
-  right: 0;
-  height: 100vh;
-  width: 250px;
-  z-index: 999;
-  background-color: white;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
 
-  /* Animation */
-  transform: translateX(100%);
-  opacity: 0;
-  pointer-events: none;
+    /* Animation */
+    transform: translateX(100%);
+    opacity: 0;
+    pointer-events: none;
 
-  transition: transform 0.4s ease, opacity 0.4s ease;
+    transition:
+        transform 0.4s ease,
+        opacity 0.4s ease;
 }
 
 .sidebar.active {
-  transform: translateX(0);
-  opacity: 1;
-  pointer-events: auto;
+    transform: translateX(0);
+    opacity: 1;
+    pointer-events: auto;
 }
-.sidebar a{
-  color: black;
-  width: 100%;
+.sidebar a {
+    color: black;
+    width: 100%;
 }
-.hamburger i{
-  color: white !important;
+.hamburger i {
+    color: white !important;
 }
-.hamburger2 i{
-  color: black !important;
+.hamburger2 i {
+    color: black !important;
 }
-.menu-button{
-  display: none;
+.menu-button {
+    display: none;
 }
 .sidebar.active {
-  transform: translateX(0);
-  opacity: 1;
-  pointer-events: auto;
+    transform: translateX(0);
+    opacity: 1;
+    pointer-events: auto;
 }
-
-
-
-
 
 .shop {
-  background: black;
-  color: green;
-  border: 2px solid green;
-  border-radius: 10px;
-  font-weight: bold;
+    background: black;
+    color: green;
+    border: 2px solid green;
+    border-radius: 10px;
+    font-weight: bold;
 }
 .shop:hover {
-  padding: 0.7rem;
+    padding: 0.7rem;
 }
 .shop:hover,
 .video:hover {
-  background: green;
-  border: 2px solid white;
-  color: black;
+    background: green;
+    border: 2px solid white;
+    color: black;
 }
 .learn-btn:hover {
-  border: 2px solid black;
-  background: green;
-  color: white;
+    border: 2px solid black;
+    background: green;
+    color: white;
 }
 .section1 {
-  background: white;
-  /* margin: -30px 30px; */
-  padding-top: 50px;
+    background: white;
+    /* margin: -30px 30px; */
+    padding-top: 50px;
 }
 .aside {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  width: 90%;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-  border: 1px solid #eaeaea;
-  border-radius: 16px;
-  background: #fafafa;
-  padding: 30px;
-  margin: 0 auto 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 90%;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    border: 1px solid #eaeaea;
+    border-radius: 16px;
+    background: #fafafa;
+    padding: 30px;
+    margin: 0 auto 30px;
 }
 .aside img {
-  height: 100px;
-  width: 100px;
-  border-radius: 100%;
-  margin-right: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin-right: 20px;
 }
 .aside1 {
-  display: flex;
-  margin-right: 10px;
+    display: flex;
+    margin-right: 10px;
 }
 
 .aside1 p:first-child {
-  font-size: 25px;
-  font-weight: bold;
-  padding-bottom: 10px;
-  font-family: "GFS Didot", serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-family: "GFS Didot", serif;
 }
 .aside1 p:last-child {
-  line-height: 1.5;
-  font-family: "Montserrat", sans-serif;
-  font-size: 17px;
+    line-height: 1.5;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
 }
 .fashion-education {
-  display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr 1fr;
-  width: 90%;
-  background: #fafafa;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-  border: 1px solid #eaeaea;
-  padding: 30px;
-  margin: 0 auto 30px;
-  border-radius: 16px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    width: 90%;
+    background: #fafafa;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    border: 1px solid #eaeaea;
+    padding: 30px;
+    margin: 0 auto 30px;
+    border-radius: 16px;
 }
 .education-icon {
-  display: flex;
-  border-right: 1px solid black;
-  align-items: center;
+    display: flex;
+    border-right: 1px solid black;
+    align-items: center;
 }
 .education-icon img {
-  width: 120px;
-  height: 120px;
-  border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
 }
 .education-content {
-  margin-left: 20px;
+    margin-left: 20px;
 }
 .education-icon span {
-  color: var(--primary);
-  padding-bottom: 10px;
-  font-size: 22px;
-  font-weight: bold;
-  font-family: "GFS Didot", serif;
+    color: var(--primary);
+    padding-bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "GFS Didot", serif;
 }
 .education-icon h2 {
-  font-size: 38px;
-  font-family: "GFS Didot", serif;
+    font-size: 38px;
+    font-family: "GFS Didot", serif;
 }
 .education-text p {
-  margin: 20px;
-  line-height: 2;
-  font-family: "Montserrat", sans-serif;
-  font-size: 18px;
+    margin: 20px;
+    line-height: 2;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
 }
 .education-list ul {
-  margin: 20px;
-  line-height: 2;
-  font-size: 18px;
-  font-family: "Montserrat", sans-serif;
+    margin: 20px;
+    line-height: 2;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
 }
 .learnmore {
-  margin-top: 40px;
-  margin-left: -20px;
-  transition: 0.4s ease;
+    margin-top: 40px;
+    margin-left: -20px;
+    transition: 0.4s ease;
 }
 .learn-btn {
-  color: black;
-  border: 2px solid green;
-  border-radius: 5px;
-  padding: 0.7rem;
-  text-align: center;
-  text-decoration: none;
-  font-size: 30px;
-  font-weight: bold;
-  font-family: "Montserrat", sans-serif;
+    color: black;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 0.7rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
 }
 .topic {
-  text-align: center;
+    text-align: center;
 }
 .topic p {
-  color: var(--primary);
-  font-size: 30px;
-  margin-bottom: 20px;
-  font-weight: bold;
-  font-family: "GFS Didot", serif;
+    color: var(--primary);
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: "GFS Didot", serif;
 }
 .topic h3 {
-  font-size: 40px;
-  font-family: "GFS Didot", serif;
+    font-size: 40px;
+    font-family: "GFS Didot", serif;
 }
 .featured-img img {
-  width: 100%;
-  height: 600px;
-  border-radius: 10px;
-  object-fit: cover;
-  transition: 0.3s ease;
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: 0.3s ease;
 }
 .featured-img {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin: 2.5rem ;
-  gap: 30px;
-  padding-bottom:  50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 2.5rem;
+    gap: 30px;
+    padding-bottom: 50px;
 }
 
 .featured-img p {
-  padding-left: 20px;
-  padding-bottom: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
 .button {
-  padding-top: 40px;
-  font-weight: 900;
-  font-family: "GFS Didot", serif;
+    padding-top: 40px;
+    font-weight: 900;
+    font-family: "GFS Didot", serif;
 }
 .button a {
-  padding: 0.7rem;
-  border: 1px dotted var(--primary);
-  border-radius: 0.3rem;
+    padding: 0.7rem;
+    border: 1px dotted var(--primary);
+    border-radius: 0.3rem;
 }
 .button a:hover {
-  background: green;
-  color: hsl(214, 17%, 92%);
+    background: green;
+    color: hsl(214, 17%, 92%);
 }
 .top {
-  margin-top: 20px;
-  font-weight: 700;
-  font-size: 20px;
-  font-family: "GFS Didot", serif;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "GFS Didot", serif;
 }
 .middle {
-  font-weight: 500;
-  font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
 }
 .featured-img a {
-  text-decoration: none;
-  color: black;
-  font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
 }
 .featured-img img:hover {
-  transform: scale3d(1.02, 1.02, 1);
-  cursor: pointer;
+    transform: scale3d(1.02, 1.02, 1);
+    cursor: pointer;
 }
 .featured-img div {
-  background: #fafafa;
-  padding-bottom: 40px;
-  border-radius: 10px;
-  color: black;
+    background: #fafafa;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    color: black;
 }
 
 marquee {
-  background: black;
-  margin-top: 60px;
+    background: black;
+    margin-top: 60px;
 }
 .section2 {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  text-align: center;
-  background: black; /* hsl(214, 17%, 92%); */
-  color: white;
-  /* margin: -40px 30px; */
-  padding: 30px;
-  letter-spacing: 2px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    background: black; /* hsl(214, 17%, 92%); */
+    color: white;
+    /* margin: -40px 30px; */
+    padding: 30px;
+    letter-spacing: 2px;
 }
 .details .p1 {
-  font-size: 50px;
-  font-family: "GFS Didot", serif;
+    font-size: 50px;
+    font-family: "GFS Didot", serif;
 }
 .details p:last-child {
-  font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 .details {
-  border-right: 2px solid black;
+    border-right: 2px solid black;
 }
 .details:last-child {
-  border: none;
+    border: none;
 }
 .details img {
-  height: 100px;
+    height: 100px;
 }
 .section3 {
-   margin: 70px 30px; 
-  background: white;
-  color: black;
-  padding: 30px;
-  border-radius: 20px;
+    margin: 70px 30px;
+    background: white;
+    color: black;
+    padding: 30px;
+    border-radius: 20px;
 }
 .section3 img {
-  max-width: 500px;
-  width: 100%;
-  height: 500px;
-  margin-left: 5rem;
-  border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+    height: 500px;
+    margin-left: 5rem;
+    border-radius: 10px;
 }
 
 .about {
-  display: flex;
+    display: flex;
 }
 .notes {
-  margin-left: 150px;
-  width: 40%;
-  margin-top: 50px;
+    margin-left: 150px;
+    width: 40%;
+    margin-top: 50px;
 }
 .about1 {
-  color: var(--primary);
-  font-size: 25px;
-  padding-bottom: 20px;
-  font-weight: bold;
-  font-family: "GFS Didot", serif;
+    color: var(--primary);
+    font-size: 25px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-family: "GFS Didot", serif;
 }
 .about2 {
-  font-size: 50px;
-  padding-bottom: 40px;
-  font-weight: bold;
-  font-family: "GFS Didot", serif;
+    font-size: 50px;
+    padding-bottom: 40px;
+    font-weight: bold;
+    font-family: "GFS Didot", serif;
 }
 .about3 {
-  font-weight: bold;
-  line-height: 2;
-  font-family: "Montserrat", sans-serif;
-  padding-bottom: 40px;
+    font-weight: bold;
+    line-height: 2;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 40px;
 }
 .about4 {
-  margin: 40px;
+    margin: 40px;
 }
 .about4 div {
-  padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 .about4 p:first-child {
-  font-weight: bold;
-  font-size: 20px;
-  padding-bottom: 10px;
-  font-family: "GFS Didot", serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-family: "GFS Didot", serif;
 }
 .about4 p:last-child {
-  line-height: 1.5;
-  font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    font-family: "Montserrat", sans-serif;
 }
 
 .more-info {
-  display: flex;
-  transform: translateX(-30px);
+    display: flex;
+    transform: translateX(-30px);
 }
 .more-info img {
-  width: 80px;
-  height: 80px;
-  border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
 }
 .more-info div {
-  margin-left: 20px;
+    margin-left: 20px;
 }
 .section3 a {
-  text-decoration: none;
-  color: white;
-  background: black;
-  padding: 10px;
-  border-radius: 5px;
-  font-weight: bold;
-  font-family: "GFS Didot", serif;
-  transition: 0.3s ease;
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: "GFS Didot", serif;
+    transition: 0.3s ease;
 }
-.section3 a:hover{
-  color: #f0f0f0;
-  background: var(--primary);
-  border: 2px solid black;
-  transform: scale(1.2);
+.section3 a:hover {
+    color: #f0f0f0;
+    background: var(--primary);
+    border: 2px solid black;
+    transform: scale(1.2);
 }
 
 .badge {
-  position: absolute;
-  width: 10%;
-  height: 20px;
-  background: black;
-  color: white;
-  font-size: 50px;
-  top: 1px;
+    position: absolute;
+    width: 10%;
+    height: 20px;
+    background: black;
+    color: white;
+    font-size: 50px;
+    top: 1px;
 }
 .section4 {
-  background: black;
-  color: white;
-  padding: 20px;
+    background: black;
+    color: white;
+    padding: 20px;
 }
 .info-line1 {
-  display: flex;
-  padding: 30px;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
 }
 .info1 {
-  width: 40%;
-  margin-left: 50px;
+    width: 40%;
+    margin-left: 50px;
 }
 .info1 .p1 {
-  font-size: 40px;
-  padding-bottom: 20px;
-  font-family: "GFS Didot", serif;
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-family: "GFS Didot", serif;
 }
 .info1 .p2 {
-  line-height: 1.5;
-  font-weight: bold;
-  font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
 }
 .inbox {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 .inbox img {
-  height: 200px;
-  width: 200px;
+    height: 200px;
+    width: 200px;
 }
 .newsletter {
-  display: flex;
-  max-width: 500px;
-  width: 100%;
-  background: #111;
-  border: 2px solid green;
-  border-radius: 10px;
-  overflow: hidden;
-  height: 50px;
-  margin-left: 3rem;
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    background: #111;
+    border: 2px solid green;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 50px;
+    margin-left: 3rem;
 }
 
 .newsletter input {
-  flex: 1;
-  background: transparent;
-  border: none;
-  color: white;
-  padding: 15px 20px;
-  padding-bottom: 50%;
-  outline: none;
-  font-size: 16px;
-  height: 50px;
-  font-family: "Montserrat", sans-serif;
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    padding-bottom: 50%;
+    outline: none;
+    font-size: 16px;
+    height: 50px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .newsletter input::placeholder {
-  color: #888;
+    color: #888;
 }
 
 .newsletter button {
-  background: var(--primary);
-  color: white;
-  border: none;
-  padding: 15px 30px;
-  font-weight: bold;
-  cursor: pointer;
-  text-decoration: none;
-  font-family: "Montserrat", sans-serif;
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
 }
 
 .newsletter button:hover {
-  background: #b8860b;
+    background: #b8860b;
 }
 
 .info-line2 {
-  display: flex;
-  padding: 40px;
-  justify-content: center;
+    display: flex;
+    padding: 40px;
+    justify-content: center;
 }
 .head {
-  display: block;
+    display: block;
 }
 .info-line2 img {
-  width: 100px;
-  height: 100px;
-  margin-right: 40px;
+    width: 100px;
+    height: 100px;
+    margin-right: 40px;
 }
 .links {
-  margin: 30px;
+    margin: 30px;
 }
 .links .h {
-  font-weight: bold;
-  padding-bottom: 10px;
-  font-family: "GFS Didot", serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-family: "GFS Didot", serif;
 }
 .links a {
-  text-decoration: none;
-  color: white;
-  line-height: 1.5;
-  font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: white;
+    line-height: 1.5;
+    font-family: "Montserrat", sans-serif;
 }
 .footer {
-  margin-left: 50px;
-  gap: 40px;
-  display: flex;
-  transform: translateY(-30px);
+    margin-left: 50px;
+    gap: 40px;
+    display: flex;
+    transform: translateY(-30px);
 }
-.copyright{
-  display: flex;
-  justify-content: center;
+.copyright {
+    display: flex;
+    justify-content: center;
 }
 
 /* ABOUT PAGE */
 
 .about-hero {
-  background: black;
-  padding: 30px;
-  background-image: url("./assets/images/aboutbackground2.png");
-  background-repeat: no-repeat;
-  background-position: right 0rem top 0rem;
+    background: black;
+    padding: 30px;
+    background-image: url("./assets/images/aboutbackground2.png");
+    background-repeat: no-repeat;
+    background-position: right 0rem top 0rem;
 }
 .about-nav {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 .about-hero img {
-  width: 100px;
-  height: 100px;
-  margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
 }
 .about-hero1 {
-  margin-top: 100px;
-  margin-left: 20px;
+    margin-top: 100px;
+    margin-left: 20px;
 }
 .about-topic {
-  color: var(--primary);
-  font-size: 30px;
-  font-weight: bold;
-  font-family: "Montserrat", sans-serif;
-  color: white;
+    color: var(--primary);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    color: white;
 }
 
 .about-hero1 p:nth-child(2) {
-  color: white;
-  font-size: 100px;
-  font-weight: bold;
-  max-width: 800px;
-  width: 100%;
-  font-family: "GFS Didot", serif;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    max-width: 800px;
+    width: 100%;
+    font-family: "GFS Didot", serif;
 }
 .about-first,
 .about-sec {
-  display: block;
-  line-height: 1;
+    display: block;
+    line-height: 1;
 }
 .about-third {
-  color: white;
+    color: white;
 }
 .about-sec {
-  color: var(--primary);
-  font-family: "GFS Didot", serif;
+    color: var(--primary);
+    font-family: "GFS Didot", serif;
 }
 
 .about-hero1 p:last-child {
-  max-width: 500px;
-  width: 100%;
-  font-size: 20px;
-  line-height: 2;
-  font-family: "Montserrat", sans-serif;
+    max-width: 500px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 2;
+    font-family: "Montserrat", sans-serif;
 }
 .about-main {
-  background: white;
-  padding: 30px;
-  display: flex;
-  justify-content: center;
+    background: white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .about-main p:first-of-type {
-  color: var(--primary);
-  font-weight: bold;
-  font-size: 30px;
-  font-family: "Montserrat", sans-serif;
-  padding-bottom: 20px;
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 20px;
 }
 .about-main h2:first-of-type {
-  font-size: 60px;
-  font-family: "GFS Didot", serif;
+    font-size: 60px;
+    font-family: "GFS Didot", serif;
 }
 .about-main h2:last-of-type {
-  color: var(--primary);
-  font-size: 60px;
-  font-family: "GFS Didot", serif;
-  padding-bottom: 20px;
+    color: var(--primary);
+    font-size: 60px;
+    font-family: "GFS Didot", serif;
+    padding-bottom: 20px;
 }
 .about-main p:nth-of-type(2) {
-  max-width: 500px;
-  width: 100%;
-  font-size: 20px;
-  line-height: 1.5;
-  padding-bottom: 30px;
-  font-family: "Montserrat", sans-serif;
+    max-width: 500px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-bottom: 30px;
+    font-family: "Montserrat", sans-serif;
 }
 .about-main p:last-of-type {
-  max-width: 500px;
-  width: 100%;
-  font-size: 20px;
-  line-height: 1.5;
-  font-family: "Montserrat", sans-serif;
+    max-width: 500px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: "Montserrat", sans-serif;
 }
 .about-main img {
-  width: 500px;
-  height: 400px;
-  margin-top: 50px;
-  border-radius: 10px;
+    width: 500px;
+    height: 400px;
+    margin-top: 50px;
+    border-radius: 10px;
 }
 .about-main1 {
-  margin-right: 100px;
-  margin-top: 30px;
-  margin-left: 20px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
 }
 
 .about-mission {
-  background: black;
-  margin: 30px;
-  padding: 50px;
-  border-radius: 30px;
+    background: black;
+    margin: 30px;
+    padding: 50px;
+    border-radius: 30px;
 }
 .about-mission h2 {
-  color: white;
-  text-align: center;
-  padding-bottom: 30px;
-  font-size: 30px;
-  font-weight: bold;
-  font-family: "GFS Didot", serif;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "GFS Didot", serif;
 }
 .about-mission span {
-  color: var(--primary);
+    color: var(--primary);
 }
 .about-mission img {
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
-  margin: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 30px;
 }
 .mission {
-  display: flex;
-  align-items: center;
-  max-width: 500px;
-  width: 100%;
-  background: black;
-  color: white;
-  padding: 20px;
-  border-radius: 20px;
-  border: 2px solid var(--primary);
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid var(--primary);
 }
 .mission h3 {
-  padding-bottom: 10px;
-  font-family: "Montserrat", sans-serif;
+    padding-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
 }
 .mission p {
-  line-height: 1.5;
-  font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    font-family: "Montserrat", sans-serif;
 }
 .vision {
-  display: flex;
-  align-items: center;
-  max-width: 500px;
-  width: 100%;
-  background: black;
-  color: white;
-  padding: 20px;
-  border-radius: 20px;
-  border: 2px solid var(--primary);
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid var(--primary);
 }
 .vision h3 {
-  padding-bottom: 10px;
-  font-family: "Montserrat", sans-serif;
+    padding-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
 }
 .vision p {
-  line-height: 1.5;
-  font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    font-family: "Montserrat", sans-serif;
 }
 .about-mission1 {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .about-value {
-  background: white;
-  padding: 40px;
-  border-radius: 30px;
-  margin: 10rem 10rem;
+    background: white;
+    padding: 40px;
+    border-radius: 30px;
+    margin: 10rem 10rem;
 }
 .about-value h2 {
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 30px;
-  font-weight: bold;
-  font-family: "GFS Didot", serif;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "GFS Didot", serif;
 }
 .about-value span {
-  color: var(--primary);
+    color: var(--primary);
 }
 .about-value img {
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
 }
 .about-value-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .about-value-content div {
-  max-width: 500px;
-  width: 100%;
-  text-align: center;
-  border-right: 1px solid black;
-  padding: 0 30px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    border-right: 1px solid black;
+    padding: 0 30px;
 }
 .about-value-content div:last-child {
-  border-right: none;
+    border-right: none;
 }
 .about-value-content h3 {
-  font-weight: bold;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: 20px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
 }
 .about-value-content p {
-  font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .journey {
-  background: black;
-  color: white;
-  padding: 50px 100px;
-  margin: 7rem 10rem;
-  border-radius: 30px;
+    background: black;
+    color: white;
+    padding: 50px 100px;
+    margin: 7rem 10rem;
+    border-radius: 30px;
 }
 .journey h2 {
-  text-align: center;
-  font-family: "GFS Didot", serif;
-  font-size: 30px;
+    text-align: center;
+    font-family: "GFS Didot", serif;
+    font-size: 30px;
 }
 .journey span {
-  color: var(--primary);
+    color: var(--primary);
 }
 .timeline {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 30px;
-  font-family: "Montserrat", sans-serif;
-  
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-family: "Montserrat", sans-serif;
 }
 .timeline img {
-  width: 50px;
-  height: 50px;
+    width: 50px;
+    height: 50px;
 }
 .item {
-  max-width: 500px;
-  width: 100%;
-  text-align: center;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
 }
 .item h3 {
-  color: green;
-  margin-bottom: 10px;
+    color: green;
+    margin-bottom: 10px;
 }
 .item h4 {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 .item p {
-  line-height: 1.5;
+    line-height: 1.5;
 }
 .item1 {
-  max-width: 500px;
-  width: 100%;
-  text-align: center;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
 }
 .item1 h3 {
-  color: green;
-  margin-bottom: 10px;
+    color: green;
+    margin-bottom: 10px;
 }
 .item1 h4 {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 .item1 p {
-  line-height: 1.5;
+    line-height: 1.5;
 }
 .about-reason {
-  background: white;
-  padding: 30px;
-  
+    background: white;
+    padding: 30px;
 }
 .about-reason h2 {
-  text-align: center;
-  font-family: "GFS Didot", serif;
-  margin-bottom: 20px;
-  font-size: 30px;
-  font-weight: bold;
+    text-align: center;
+    font-family: "GFS Didot", serif;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
 }
 .about-reason span {
-  color: var(--primary);
+    color: var(--primary);
 }
 .about-reason img {
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
-  margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-right: 10px;
 }
 .about-reason-content {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
 }
 .about-reason-details {
-  display: flex;
-  max-width: 500px;
-  width: 100%;
-  border: 1px solid var(--primary);
-  padding: 20px;
-  border-radius: 10px;
-  align-items: center;
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    border: 1px solid var(--primary);
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
 }
 .about-reason-details h3 {
-  padding-bottom: 10px;
-  font-family: "Montserrat", sans-serif;
+    padding-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
 }
 .about-reason-details p {
-  line-height: 1.5;
-  font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    font-family: "Montserrat", sans-serif;
 }
 .about-footer {
-  background: black;
-  color: white;
-  padding: 30px;
+    background: black;
+    color: white;
+    padding: 30px;
 }
 .about-footer1 {
-  text-align: center;
-  margin-bottom: 40px;
+    text-align: center;
+    margin-bottom: 40px;
 }
 .about-footer1 h2 {
-  font-family: "GFS Didot", serif;
-  font-size: 40px;
-  font-weight: bold;
-  padding-bottom: 30px;
+    font-family: "GFS Didot", serif;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 30px;
 }
 .about-footer1 span {
-  color: var(--primary);
+    color: var(--primary);
 }
 
 /* -- CONTACT PAGE -- */
+.contact-form {
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 20px;
+    width: 50%;
+}
 .contact-hero {
-  background: black;
-  padding: 30px;
-  padding-bottom: 150px;
+    background: black;
+    padding: 30px;
+    padding-bottom: 150px;
 }
 .contact-hero img {
-  width: 100px;
-  height: 100px;
-  margin-right: 20px;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
 }
 .contact-form {
-  border-radius: 50px;
-  margin: 70px;
-  padding: 40px;
+    border-radius: 50px;
+    margin: 70px;
+    padding: 40px;
 }
 .contact-form h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 .contact-form p {
-  font-size: 1.5rem;
-  margin-bottom: 20px;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
 }
+.contact-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 70px;
+}
+
+.contact-section {
+    display: flex;
+}
+
+.contact-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    width: 100%;
+    padding: 16px 18px;
+    min-height: 100px;
+    background: #ffffff;
+    border: 1px solid #e5ebe5;
+    border-radius: 14px;
+    text-decoration: none;
+    color: inherit;
+
+    transition: all 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-2px);
+    border-color: #2e7d32;
+    box-shadow: 0 8px 20px rgba(46, 125, 50, 0.1);
+}
+
+/* ICON BOX */
+.contact-icon {
+    width: 50px;
+    height: 50px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 12px;
+    font-size: 19px;
+}
+
+/* ICON COLORS */
+.email {
+    background: #e8f5e9;
+    color: #1b5e20;
+}
+
+.whatsapp {
+    background: #e6f4ea;
+    color: #168a45;
+}
+
+.phone {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+.location {
+    background: #eef5e8;
+    color: #4f772d;
+}
+/* TEXT */
+.contact-info {
+    min-width: 0;
+}
+
+.contact-label {
+    display: block;
+
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    color: #8a948a;
+
+    margin-bottom: 3px;
+}
+.contact-info h3 {
+    margin: 0;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    color: #172217;
+}
+
+.contact-info p {
+    margin: 3px 0 0;
+
+    font-size: 11px;
+    color: #8a948a;
+}
+
 label {
-  display: block;
-  font-size: 1.5rem;
+    display: block;
+    font-size: 1.5rem;
 }
 input {
-  display: block;
-  border-radius: 20px;
-  padding: 20px;
-  font-size: 1rem;
-  width: 50%;
-  margin-bottom: 30px;
-  margin-top: 10px;
+    display: block;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 1rem;
+    width: 80%;
+    margin-bottom: 30px;
+    margin-top: 10px;
 }
 textarea {
-  width: 50%;
-  min-height: 200px;
-  border-radius: 20px;
-  padding: 20px;
-  font-size: 1rem;
-  margin-top: 10px;
-  border: 3px solid green;
+    width: 80%;
+    min-height: 150px;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 1rem;
+    margin-top: 10px;
+    border: 3px solid green;
 }
 .submit-button {
-  margin-top: 30px;
-  width: 10rem;
-  border-radius: 5px;
-  background: black;
-  color: white;
-  padding: 1rem;
+    margin-top: 30px;
+    width: 10rem;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    padding: 1rem;
 }
 
 .submit-button:hover {
-  color: white;
-  background: green;
-  cursor: pointer;
+    color: white;
+    background: green;
+    cursor: pointer;
 }
-
 
 /*===FASHION EDUCATION ====*/
 
 .fashion-first {
-  color: var(--primary);
-  max-width: 1100px;
-  width: 100%;
-  margin-top: 150px;
-  font-family: "Montserrat", serif;
+    color: var(--primary);
+    max-width: 1100px;
+    width: 100%;
+    margin-top: 150px;
+    font-family: "Montserrat", serif;
 }
 .fashion-fash {
-  font-size: 2rem;
-  font-weight: bold;
-  
+    font-size: 2rem;
+    font-weight: bold;
 }
 .fashion-you {
-  font-size: 100px;
-  font-weight: bold;
-  font-family: "GFS Didot", serif;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: "GFS Didot", serif;
 }
 .fashion-def {
-  color: white;
-  font-size: 100px;
-  font-weight: bold;
-  font-family: "GFS Didot", serif;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: "GFS Didot", serif;
 }
 .fashion-fourth {
-  color: white;
-  max-width: 700px;
-  width: 100%;
-  line-height: 1.8;
-  margin-bottom: 20px;
-  font-family: "Montserrat", serif;
-  font-size: 22px;
+    color: white;
+    max-width: 700px;
+    width: 100%;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-family: "Montserrat", serif;
+    font-size: 22px;
 }
 .fashion-explore {
-  color: white;
-  background: green;
-  border-radius: 5px;
-  padding: 16px 34px;
-  text-decoration: none;
-  font-weight: bold;
-  margin-right: 20px;
-  font-family: "GFS Didot", serif;
-  transform: 0.3s ease;
-  font-size: 18px;
+    color: white;
+    background: green;
+    border-radius: 5px;
+    padding: 16px 34px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+    font-family: "GFS Didot", serif;
+    transform: 0.3s ease;
+    font-size: 18px;
 }
 .fashion-explore:hover {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
 .fashion-education-hero {
-  background: black;
-  padding: 70px;
-  background-image: url("./assets/images/fashionedu.png");
-  background-repeat: no-repeat;
-  background-position: right 0rem top 0rem;
-  padding-bottom: 150px;
+    background: black;
+    padding: 70px;
+    background-image: url("./assets/images/fashionedu.png");
+    background-repeat: no-repeat;
+    background-position: right 0rem top 0rem;
+    padding-bottom: 150px;
 }
-.fashion-education-main{
-  display: flex;
-  gap: 60px;
-  margin: 50px auto;
-  align-items: start;
-  width: 90%;
+.fashion-education-main {
+    display: flex;
+    gap: 60px;
+    margin: 50px auto;
+    align-items: start;
+    width: 90%;
 }
-.fashion-education-main1{
-  margin: 30px;
+.fashion-education-main1 {
+    margin: 30px;
 }
-.fashion-education-main1 h3{
-  color: var(--primary);
-  font-weight: bold;
-  font-size: 30px;
-  font-family: "Montserrat", serif;
+.fashion-education-main1 h3 {
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Montserrat", serif;
 }
-.fashion-education-main1 h2{
-  max-width: 600px;
-  width: 100%;
-  font-size: 4rem;
-  line-height: 1.1;
-  font-family: "GFS Didot", serif;
+.fashion-education-main1 h2 {
+    max-width: 600px;
+    width: 100%;
+    font-size: 4rem;
+    line-height: 1.1;
+    font-family: "GFS Didot", serif;
 }
-.fashion-education-main1 span{
-  color: var(--primary);
+.fashion-education-main1 span {
+    color: var(--primary);
 }
-.fashion-education-main1 p:first-of-type{
-  max-width: 500px;
-  width: 100%;
-  padding-bottom: 30px;
-  font-size: 22px;
-  font-family: "Montserrat", serif;
-  font-weight: bold;
+.fashion-education-main1 p:first-of-type {
+    max-width: 500px;
+    width: 100%;
+    padding-bottom: 30px;
+    font-size: 22px;
+    font-family: "Montserrat", serif;
+    font-weight: bold;
 }
-.fashion-education-main1 p:nth-of-type(2){
-  max-width: 500px;
-  width: 100%;
-  font-size: 22px;
-  font-family: "Montserrat", serif;
-  font-weight: bold;
+.fashion-education-main1 p:nth-of-type(2) {
+    max-width: 500px;
+    width: 100%;
+    font-size: 22px;
+    font-family: "Montserrat", serif;
+    font-weight: bold;
 }
-.fashion-education-main2{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 0;
-  gap: 30px;
-  margin-top: 100px;
+.fashion-education-main2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    gap: 30px;
+    margin-top: 100px;
 }
-.fashion-edu{
-  display: flex;
-  max-width: 450px;
-  align-items: flex-start;
-  font-family: "Montserrat", serif;
-  width: 100%;
+.fashion-edu {
+    display: flex;
+    max-width: 450px;
+    align-items: flex-start;
+    font-family: "Montserrat", serif;
+    width: 100%;
 }
-.fashion-edu img{
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
-  margin-right: 20px;
-}
-
-.fashion-edu-learn{
-  margin: 30px;
-}
-.fashion-edu-learn > div{
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-}
-.fashion-edu-learn h2{
-  text-align: center;
-  font-size: 3rem;
-  margin: 30px;
-  font-family: "GFS Didot", serif;
-}
-.fashion-edu-learn span{
-  color: var(--primary);
-}
-.edu-learn{
-  text-align: center;
-  border: 0.5px solid black;
-  padding: 20px;
-  margin: 10px;
-  border-radius: 10px;
-}
-.edu-learn img{
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
-  padding-bottom: 5px;
-}
-.edu-learn h3{
-  font-size: 20px;
-  font-family: "Montserrat", serif;
-}
-.edu-learn p{
-  font-family: "Montserrat", serif;
-  font-weight: 500;
-}
-.fashion-edu-approach{
-  padding: 20px;
-  background: lightgrey;
-}
-.fashion-edu-approach h2{
-  font-size: 3rem;
-  text-align: center;
-  font-family: "GFS Didot", serif;
-}
-.fashion-edu-approach span{
-  color: var(--primary);
-}
-.fashion-edu-approach > div{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  padding: 40px;
-  border-radius: 30px;
-  margin: 1rem 10rem;
-  
-}
-.edu-approach img{
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
-}
-.edu-approach{
-  text-align: center;
-  max-width: 500px;
-  border: 0.5px solid black;
-  margin: 10px;
-  border-radius: 10px;
-  padding: 20px;
-  font-family: "Montserrat", serif;
-}
-.edu-approach h3{
-  padding-bottom: 10px;
-}
-.edu-approach p{
-  line-height: 1.5;
-}
-.fashion-edu-whychoose{
-  padding: 50px;
-}
-.fashion-edu-whychoose h2{
-  font-size: 3rem;
-  text-align: center;
-  font-family: "GFS Didot", serif;
-}
-.fashion-edu-whychoose span{
-  color: var(--primary);
-}
-.fashion-edu-whychoose > div{
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  margin: 1rem 3rem;
-}
-.edu-whychoose{
-  display: flex;
-  font-family: "Montserrat", serif;
-  border: 0.5px solid black;
-  margin-right: 10px;
-  border-radius: 10px;
-  padding: 20px;
-}
-.edu-whychoose img{
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
-  margin-right: 10px;
-}
-.edu-whychoose h3{
-  padding-bottom: 10px;
-}
-.edu-whychoose p{
-  max-width: 200px;
-  width: 100%;
-  line-height: 1.5;
-}
-.fashion-education-cta{
-  margin: 1rem 10rem;
-  background: black;
-  color: white;
-  padding: 40px;
-  border-radius: 10px;
-  display: flex;
-}
-.fashion-education-cta h2{
-  font-size: 50px;
-  font-family: "GFS Didot", serif;
-}
-.fashion-education-cta span{
-  color: var(--primary);
-}
-.fashion-education-cta p{
-  font-family: "Montserrat", serif;
-}
-.fashion-education-cta button{
-  color: white;
-  background: var(--primary);
-  padding: 20px; 
-  text-decoration: none;
-  font-weight: bold;
-  font-family: "Montserrat", serif;
-  font-size: 22px;
-}
-.fashion-education-cta div:last-child{
-  margin-left: auto;
-  margin-right: 100px;
-  margin-top: 50px;
+.fashion-edu img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-right: 20px;
 }
 
+.fashion-edu-learn {
+    margin: 30px;
+}
+.fashion-edu-learn > div {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.fashion-edu-learn h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 30px;
+    font-family: "GFS Didot", serif;
+}
+.fashion-edu-learn span {
+    color: var(--primary);
+}
+.edu-learn {
+    text-align: center;
+    border: 0.5px solid black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.edu-learn img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    padding-bottom: 5px;
+}
+.edu-learn h3 {
+    font-size: 20px;
+    font-family: "Montserrat", serif;
+}
+.edu-learn p {
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+}
+.fashion-edu-approach {
+    padding: 20px;
+    background: lightgrey;
+}
+.fashion-edu-approach h2 {
+    font-size: 3rem;
+    text-align: center;
+    font-family: "GFS Didot", serif;
+}
+.fashion-edu-approach span {
+    color: var(--primary);
+}
+.fashion-edu-approach > div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 40px;
+    border-radius: 30px;
+    margin: 1rem 10rem;
+}
+.edu-approach img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.edu-approach {
+    text-align: center;
+    max-width: 500px;
+    border: 0.5px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: "Montserrat", serif;
+}
+.edu-approach h3 {
+    padding-bottom: 10px;
+}
+.edu-approach p {
+    line-height: 1.5;
+}
+.fashion-edu-whychoose {
+    padding: 50px;
+}
+.fashion-edu-whychoose h2 {
+    font-size: 3rem;
+    text-align: center;
+    font-family: "GFS Didot", serif;
+}
+.fashion-edu-whychoose span {
+    color: var(--primary);
+}
+.fashion-edu-whychoose > div {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 1rem 3rem;
+}
+.edu-whychoose {
+    display: flex;
+    font-family: "Montserrat", serif;
+    border: 0.5px solid black;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.edu-whychoose img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.edu-whychoose h3 {
+    padding-bottom: 10px;
+}
+.edu-whychoose p {
+    max-width: 200px;
+    width: 100%;
+    line-height: 1.5;
+}
+.fashion-education-cta {
+    margin: 1rem 10rem;
+    background: black;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+}
+.fashion-education-cta h2 {
+    font-size: 50px;
+    font-family: "GFS Didot", serif;
+}
+.fashion-education-cta span {
+    color: var(--primary);
+}
+.fashion-education-cta p {
+    font-family: "Montserrat", serif;
+}
+.fashion-education-cta button {
+    color: white;
+    background: var(--primary);
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Montserrat", serif;
+    font-size: 22px;
+}
+.fashion-education-cta div:last-child {
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: 50px;
+}
 
 /*====Collection Page ===*/
-.motto-collection{
-  margin-bottom: 10rem;
-  color: white;
-  font-size: 1.75rem;
-  margin-top: 1.5rem;
+.motto-collection {
+    margin-bottom: 10rem;
+    color: white;
+    font-size: 1.75rem;
+    margin-top: 1.5rem;
 }
 .collection-hero {
-  background: black;
-  padding: 40px ;
-  background-image: url("./assets/images/fashionedu.png");
-  background-repeat: no-repeat;
-  background-position: right 0rem top 0rem;
-  padding-bottom: 150px;
+    background: black;
+    padding: 40px;
+    background-image: url("./assets/images/fashionedu.png");
+    background-repeat: no-repeat;
+    background-position: right 0rem top 0rem;
+    padding-bottom: 150px;
 }
 .collection-def {
-  color: white;
-  font-size: 100px;
-  font-weight: bold;
-  font-family: "GFS Didot", serif;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: "GFS Didot", serif;
 }
 .collection-fourth {
-  color: white;
-  max-width: 700px;
-  width: 100%;
-  line-height: 1.8;
-  margin-bottom: 20px;
-  font-family: "Montserrat", serif;
-  font-size: 22px;
+    color: white;
+    max-width: 700px;
+    width: 100%;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-family: "Montserrat", serif;
+    font-size: 22px;
 }
 .collection-explore {
-  color: white;
-  background: green;
-  border-radius: 5px;
-  padding: 16px 34px;
-  text-decoration: none;
-  font-weight: bold;
-  margin-right: 20px;
-  font-family: "GFS Didot", serif;
-  transition: 0.3s ease;
-  font-size: 18px;
+    color: white;
+    background: green;
+    border-radius: 5px;
+    padding: 16px 34px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+    font-family: "GFS Didot", serif;
+    transition: 0.3s ease;
+    font-size: 18px;
 }
 .collection-explore:hover {
-  transform: scale(1.2);
-  
+    transform: scale(1.2);
 }
-.featured-collection-section{
-  margin: 30px;
+.featured-collection-section {
+    margin: 30px;
 }
-.featured-collection-section h2{
-  font-size: 50px;
-  text-align: center;
-  font-family: "GFS Didot", serif;
-  font-weight: bold;
-  margin: 50px;
-  color: var(--primary);
+.featured-collection-section h2 {
+    font-size: 50px;
+    text-align: center;
+    font-family: "GFS Didot", serif;
+    font-weight: bold;
+    margin: 50px;
+    color: var(--primary);
 }
-.featured-images{
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  justify-content: center;
-  align-items: center;
-  margin: 30px 60px;
+.featured-images {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 30px 60px;
 }
-.featured-images > div{
-  max-width: 300px;
-  width: 100%;
+.featured-images > div {
+    max-width: 300px;
+    width: 100%;
 }
-.featured-images img{
-  width: 300px;
-  height: 450px;
+.featured-images img {
+    width: 300px;
+    height: 450px;
 }
-.featured-images{
-  text-align: center;
-  gap: 30px;
+.featured-images {
+    text-align: center;
+    gap: 30px;
 }
-.featured-images h4{
-  padding: 10px;
-  font-size: 18px;
-  font-family: "Montserrat", serif;
+.featured-images h4 {
+    padding: 10px;
+    font-size: 18px;
+    font-family: "Montserrat", serif;
 }
-.featured-images p{
-  padding-bottom: 30px;
-  font-size: 20px;
-  font-family: "Montserrat", serif;
+.featured-images p {
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-family: "Montserrat", serif;
 }
-.featured-images a{
-  text-decoration: none;
-  color: var(--primary);
-  border: 1px solid var(--primary);
-  font-family: "Montserrat", serif;
-  padding: 10px;
-  font-weight: bold;
-  border-radius: 10px;
-  transition: 0.3s ease;
+.featured-images a {
+    text-decoration: none;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    font-family: "Montserrat", serif;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.3s ease;
 }
-.featured-images a:hover{
-  background: var(--primary);
-  color: white;
-  
+.featured-images a:hover {
+    background: var(--primary);
+    color: white;
 }
 .filter-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin: 30px 0;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px 0;
+    flex-wrap: wrap;
 }
 
 .filter-btn {
-  padding: 12px 25px;
-  border: 1px solid var(--primary);
-  background: transparent;
-  color: var(--primary);
-  cursor: pointer;
-  font-weight: bold;
-  transition: 0.3s;
-  border-radius: 20px;
+    padding: 12px 25px;
+    border: 1px solid var(--primary);
+    background: transparent;
+    color: var(--primary);
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    border-radius: 20px;
 }
 
 .filter-btn:hover,
 .filter-btn.active {
-  background: var(--primary);
-  color: white;
+    background: var(--primary);
+    color: white;
 }
-
-
-
-
-
-
-
-
-
 
 /*=======RESPONSIVENESS =======*/
 
-@media (min-width: 901px) and (max-width: 1570px){
-  .featured-images{
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .head{
-    font-size: 25px;
-  }
-  .log{
-    font-size: 1.2rem;
-  }
+@media (min-width: 901px) and (max-width: 1570px) {
+    .featured-images {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .head {
+        font-size: 25px;
+    }
+    .log {
+        font-size: 1.2rem;
+    }
     .nav {
-    padding: 30px;
-  }
-  nav img{
-    margin-right: 10px;
-  }
-  h1 {
-    width: auto;
-    flex: 1 1 auto;
-  }
-  nav {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 0;
-    gap: 5px;
-  }
-  nav {
-  display: flex;
-  align-items: center;
-  background: black;
-  position: fixed;
-  width: 100%;
-  margin: -30px;
-  padding: 20px;
-  z-index: 999;
-}
-  nav ul a {
-    padding: 10px;
-    font-size: 10px;
-  }
-  .motto{
-    font-size: 14px;
-  }
-  .fash{
-    font-size: 1rem;
-  }
-  .def{
-    font-size: 100px;
-  }
-  .you{
-    font-size: 100px;
-  }
-  .fourth{
-    font-size: 15px;
-    max-width: 400px;
-    width: 100%;
-  }
-  .aside img{
-    height: 70px;
-    width: 70px;
-    margin-right: 15px;
-  }
-  .aside1 p:first-child{
-    font-size: 20px;
-  }
-  .aside p:last-child{
-    font-size: 13px;
-  }
-  .education-icon img{
-    width: 90px;
-    height: 90px;
-  }
-  .education-icon span{
-    font-size: 17px;
-  }
-  .education-icon h2{
-    font-size: 25px;
-  }
-  .education-text p{
-    font-size: 13px;
-    line-height: 1.5;
-  }
-  .education-list ul{
-    font-size: 13px;
-    line-height: 1.5;
-  }
-  .learn-btn{
-    font-size: 20px;
-    padding: 10px;
-  }
-  .section3 img{
-    margin-left: 1rem;
-  }
-  .notes{
-    margin-left: 50px;
-  }
-  .about1{
-    font-size: 18px;
-  }
-  .about2{
-    font-size: 25px;
-  }
-  .about3{
-    font-size: 13px;
-  }
-  .section3 a{
-    font-size: 10px;
-  }
-  .about4 p:first-child{
-    font-size: 16px;
-  }
-  .about4 p:last-child{
-    font-size: 12px;
-  }
-  .info1{
-    width: 60%;
-    margin-left: 10px;
-  }
-  .info1 .p1{
-    font-size: 25px;
-    padding-bottom: 10px;
-  }
-  .info1 .p2{
-    font-size: 12px;
-  }
-  .inbox img{
-    height: 100px;
-    width: 100px;
-  }
-  .info-line2{
-    padding: 40px;
-  }
-  .footer{
-    margin-left: 30px;
-    gap: 20px;
-  }
-  .links{
-    margin: 15px;
-  }
-  
-  
-  /*====== Collection Page=====*/
-  .collection-def{
-    font-size: 60px;
-  }
-  .collection-fourth{
-    font-size: 15px;
-    max-width: 400px;
-    width: 100%;
-  }
-  .featured-collection-section h2{
-    font-size: 40px;
-  }
-  .collection-hero{
-    padding: 30px;
-  }
-  .motto-collection{
-    font-size: 14px;
-  }
-  
-  
-  
-  .fashion-education-hero{
-    padding: 30px;
-  }
-  
-  
-  /*====== About Page =====*/
-  .about-hero1 p:nth-child(2){
-    font-size: 60px;
-  }
-  .about-hero1 p:last-child{
-    max-width: 400px;
-    width: 100%;
-    font-size: 15px;
-  }
-  .about-main p:first-of-type{
-    font-size: 20px;
-  }
-  .about-main h2:first-of-type{
-    font-size: 30px;
-  }
-  .about-main h2:last-of-type{
-    font-size: 30px;
-  }
-  .about-main p:nth-of-type(2){
-    font-size: 14px;
-    max-width: 400px;
-    width: 100%;
-  }
-  .about-main p:last-of-type{
-    font-size: 14px;
-    max-width: 400px;
-    width: 100%;
-  }
-  .about-mission img{
-    width: 70px;
-    height: 70px;
-  }
-  .mission{
-    padding: 10px;
-  }
-  .mission h3{
-    font-size: 13px;
-  }
-  .mission p{
-    font-size: 13px;
-  }
-  .vision{
-    padding: 10px;
-  }
-  .vision h3{
-    font-size: 13px;
-  }
-  .vision p{
-    font-size: 13px;
-  }
-  .about-value{
-    margin: 10rem 4rem;
-  }
-  .about-value img{
-    width: 70px;
-    height: 70px;
-  }
-  .about-value-content h3{
-    font-size: 15px;
-  }
-  .about-value-content p{
-    font-size: 10px;
-  }
-  .journey{
-    margin: 7rem 4rem;
-  }
-  .item h3{
-    font-size: 13px;
-  }
-  .item h4{
-    font-size: 13px;
-  }
-  .item p{
-    font-size: 10px;
-  }
-  .item1 h3{
-    font-size: 13px;
-  }
-  .item1 h4{
-    font-size: 13px;
-  }
-  .item1 p{
-    font-size: 10px;
-  }
-  .about-reason img{
-    width: 70px;
-    height: 70px;
-  }
-  .about-reason-details h3{
-    font-size: 15px;
-  }
-  .about-reason-details p{
-    font-size: 10px;
-  }
-  
-  
-  /*====== Featured Education =======*/
-  .fashion-fash{
-    font-size: 1rem;
-  }
-  .fashion-you{
-    font-size: 60px;
-  }
-  .fashion-def{
-    font-size: 60px;
-  }
-  .fashion-fourth{
-    max-width: 400px;
-    width: 100%;
-    font-size: 15px;
-  }
-  .fashion-education-main1 h3{
-    font-size: 15px;
-  }
-  .fashion-education-main1 h2{
-    font-size: 35px;
-  }
-  .fashion-education-main1 p:first-of-type{
-    font-size: 15px;
-  }
-  .fashion-education-main1 p:nth-of-type(2){
-    font-size: 15px;
-  }
-  .fashion-edu img{
-    width: 70px;
-    height: 70px;
-  }
-  .fashion-edu h3{
-    font-size: 13px;
-  }
-  .fashion-edu p{
-    font-size: 13px;
-  }
-  .fashion-edu-learn h2{
-    font-size: 30px;
-  }
-  .edu-learn{
-    padding: 10px;
-  }
-  .edu-learn img{
-    width: 70px;
-    height: 70px;
-  }
-  .edu-learn h3{
-    font-size: 15px;
-  }
-  .edu-learn p{
-    font-size: 13px;
-  }
-  .fashion-edu-approach h2{
-    font-size: 30px;
-  }
-  .fashion-edu-approach > div{
-    padding: 10px;
-  }
-  .edu-approach img{
-    width: 70px;
-    height: 70px;
-  }
-  .edu-approach{
-    padding: 10px;
-  }
-  .edu-approach h3{
-    font-size: 13px;
-  }
-  .edu-approach p{
-    font-size: 10px;
-  }
-  .fashion-edu-whychoose{
-    padding: 30px;
-  }
-  .fashion-edu-whychoose h2{
-    font-size: 30px;
-  }
-  .fashion-edu-whychoose > div{
-    margin: 1rem;
-  }
-  .edu-whychoose{
-    padding: 10px;
-  }
-  .edu-whychoose h3{
-    font-size: 13px;
-  }
-  .edu-whychoose p{
-    font-size: 10px;
-  }
-  .fashion-education-cta{
-    margin: 1rem 3rem;
-  }
-  .fashion-education-cta h2{
-    font-size: 30px;
-  }
-  .fashion-education-cta p{
-    font-size: 15px;
-  }
-  .fashion-education-cta button{
-    font-size: 17px;
-  }
-}
+        padding: 30px;
+    }
+    nav img {
+        margin-right: 10px;
+    }
+    h1 {
+        width: auto;
+        flex: 1 1 auto;
+    }
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0;
+        gap: 5px;
+    }
+    nav {
+        display: flex;
+        align-items: center;
+        background: black;
+        position: fixed;
+        width: 100%;
+        margin: -30px;
+        padding: 20px;
+        z-index: 999;
+    }
+    nav ul a {
+        padding: 10px;
+        font-size: 10px;
+    }
+    .motto {
+        font-size: 14px;
+    }
+    .fash {
+        font-size: 1rem;
+    }
+    .def {
+        font-size: 100px;
+    }
+    .you {
+        font-size: 100px;
+    }
+    .fourth {
+        font-size: 15px;
+        max-width: 400px;
+        width: 100%;
+    }
+    .aside img {
+        height: 70px;
+        width: 70px;
+        margin-right: 15px;
+    }
+    .aside1 p:first-child {
+        font-size: 20px;
+    }
+    .aside p:last-child {
+        font-size: 13px;
+    }
+    .education-icon img {
+        width: 90px;
+        height: 90px;
+    }
+    .education-icon span {
+        font-size: 17px;
+    }
+    .education-icon h2 {
+        font-size: 25px;
+    }
+    .education-text p {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+    .education-list ul {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+    .learn-btn {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .section3 img {
+        margin-left: 1rem;
+    }
+    .notes {
+        margin-left: 50px;
+    }
+    .about1 {
+        font-size: 18px;
+    }
+    .about2 {
+        font-size: 25px;
+    }
+    .about3 {
+        font-size: 13px;
+    }
+    .section3 a {
+        font-size: 10px;
+    }
+    .about4 p:first-child {
+        font-size: 16px;
+    }
+    .about4 p:last-child {
+        font-size: 12px;
+    }
+    .info1 {
+        width: 60%;
+        margin-left: 10px;
+    }
+    .info1 .p1 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .info1 .p2 {
+        font-size: 12px;
+    }
+    .inbox img {
+        height: 100px;
+        width: 100px;
+    }
+    .info-line2 {
+        padding: 40px;
+    }
+    .footer {
+        margin-left: 30px;
+        gap: 20px;
+    }
+    .links {
+        margin: 15px;
+    }
 
+    /*====== Collection Page=====*/
+    .collection-def {
+        font-size: 60px;
+    }
+    .collection-fourth {
+        font-size: 15px;
+        max-width: 400px;
+        width: 100%;
+    }
+    .featured-collection-section h2 {
+        font-size: 40px;
+    }
+    .collection-hero {
+        padding: 30px;
+    }
+    .motto-collection {
+        font-size: 14px;
+    }
 
+    .fashion-education-hero {
+        padding: 30px;
+    }
+
+    /*====== About Page =====*/
+    .about-hero1 p:nth-child(2) {
+        font-size: 60px;
+    }
+    .about-hero1 p:last-child {
+        max-width: 400px;
+        width: 100%;
+        font-size: 15px;
+    }
+    .about-main p:first-of-type {
+        font-size: 20px;
+    }
+    .about-main h2:first-of-type {
+        font-size: 30px;
+    }
+    .about-main h2:last-of-type {
+        font-size: 30px;
+    }
+    .about-main p:nth-of-type(2) {
+        font-size: 14px;
+        max-width: 400px;
+        width: 100%;
+    }
+    .about-main p:last-of-type {
+        font-size: 14px;
+        max-width: 400px;
+        width: 100%;
+    }
+    .about-mission img {
+        width: 70px;
+        height: 70px;
+    }
+    .mission {
+        padding: 10px;
+    }
+    .mission h3 {
+        font-size: 13px;
+    }
+    .mission p {
+        font-size: 13px;
+    }
+    .vision {
+        padding: 10px;
+    }
+    .vision h3 {
+        font-size: 13px;
+    }
+    .vision p {
+        font-size: 13px;
+    }
+    .about-value {
+        margin: 10rem 4rem;
+    }
+    .about-value img {
+        width: 70px;
+        height: 70px;
+    }
+    .about-value-content h3 {
+        font-size: 15px;
+    }
+    .about-value-content p {
+        font-size: 10px;
+    }
+    .journey {
+        margin: 7rem 4rem;
+    }
+    .item h3 {
+        font-size: 13px;
+    }
+    .item h4 {
+        font-size: 13px;
+    }
+    .item p {
+        font-size: 10px;
+    }
+    .item1 h3 {
+        font-size: 13px;
+    }
+    .item1 h4 {
+        font-size: 13px;
+    }
+    .item1 p {
+        font-size: 10px;
+    }
+    .about-reason img {
+        width: 70px;
+        height: 70px;
+    }
+    .about-reason-details h3 {
+        font-size: 15px;
+    }
+    .about-reason-details p {
+        font-size: 10px;
+    }
+
+    /*====== Featured Education =======*/
+    .fashion-fash {
+        font-size: 1rem;
+    }
+    .fashion-you {
+        font-size: 60px;
+    }
+    .fashion-def {
+        font-size: 60px;
+    }
+    .fashion-fourth {
+        max-width: 400px;
+        width: 100%;
+        font-size: 15px;
+    }
+    .fashion-education-main1 h3 {
+        font-size: 15px;
+    }
+    .fashion-education-main1 h2 {
+        font-size: 35px;
+    }
+    .fashion-education-main1 p:first-of-type {
+        font-size: 15px;
+    }
+    .fashion-education-main1 p:nth-of-type(2) {
+        font-size: 15px;
+    }
+    .fashion-edu img {
+        width: 70px;
+        height: 70px;
+    }
+    .fashion-edu h3 {
+        font-size: 13px;
+    }
+    .fashion-edu p {
+        font-size: 13px;
+    }
+    .fashion-edu-learn h2 {
+        font-size: 30px;
+    }
+    .edu-learn {
+        padding: 10px;
+    }
+    .edu-learn img {
+        width: 70px;
+        height: 70px;
+    }
+    .edu-learn h3 {
+        font-size: 15px;
+    }
+    .edu-learn p {
+        font-size: 13px;
+    }
+    .fashion-edu-approach h2 {
+        font-size: 30px;
+    }
+    .fashion-edu-approach > div {
+        padding: 10px;
+    }
+    .edu-approach img {
+        width: 70px;
+        height: 70px;
+    }
+    .edu-approach {
+        padding: 10px;
+    }
+    .edu-approach h3 {
+        font-size: 13px;
+    }
+    .edu-approach p {
+        font-size: 10px;
+    }
+    .fashion-edu-whychoose {
+        padding: 30px;
+    }
+    .fashion-edu-whychoose h2 {
+        font-size: 30px;
+    }
+    .fashion-edu-whychoose > div {
+        margin: 1rem;
+    }
+    .edu-whychoose {
+        padding: 10px;
+    }
+    .edu-whychoose h3 {
+        font-size: 13px;
+    }
+    .edu-whychoose p {
+        font-size: 10px;
+    }
+    .fashion-education-cta {
+        margin: 1rem 3rem;
+    }
+    .fashion-education-cta h2 {
+        font-size: 30px;
+    }
+    .fashion-education-cta p {
+        font-size: 15px;
+    }
+    .fashion-education-cta button {
+        font-size: 17px;
+    }
+}
 
 @media (max-width: 900px) {
-  /*== HOME ==*/
-  .container {
-    width: 95%;
-    margin: 20px auto;
-  }
-  .nav {
-    padding: 20px;
-  }
-  
-  .about-head {
-    justify-self: center;
-  }
-  .hideOnMobile{
-    display: none;
-  }
-  .menu-button{
-    display: block;
-  }
-  nav ul {
-    margin-left: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
-    gap: 15px;
-  }
-  nav ul a {
-    padding: 10px;
-    font-size: 1rem;
-  }
-  nav {
-    align-items: center;
-    display: flex;
-    margin: -30px -20px;
-    padding: 0;
-  }
-  .sidebar li{
-    padding-left: 20px;
-    padding-bottom: 10px;
-  }
-  nav img {
-    margin: 1rem;
-  }
-  .hamburger{
-    font-size: 50px;
-  }
-  .hamburger2{
-    font-size: 50px;
-  }
-  .menu-button{
-    display: block;
-  }
-  h1 {
-    width: 100%;
-    margin: 15px auto;
-  }
-  .head {
-    font-size: 32px;
-    margin-bottom: 0px;
-  }
-  .log {
-    font-size: 25px;
-  }
-  .motto {
-    font-size: 1.5rem;
-    text-align: center;
-    margin-top: 7px;
-    font-family: "Montserrat", serif;
-  }
-  .shop {
-    transform: none;
-    padding: 0.7rem;
-    color: white;
-    background: green;
-  }
-  .first,
-  .fourth {
-    width: 50%;
-  }
-  .fourth{
-    font-size: 16px;
-  }
-  .first {
-    margin-top: 80px;
-    width: 50%;
-  }
-  .fash {
-    font-size: 22px;
-  }
-  .def,
-  .you {
-    font-size: 60px;
-  }
-  .explore,
-  .video {
-    display: block;
-    width: 100%;
-    text-align: center;
-    margin: 15px 0;
-  }
-  .aside {
-    grid-template-columns: 1fr;
-    transform: none;
-    width: 90%;
-    gap: 20px;
-  }
-  .fashion-education {
-    grid-template-columns: 1fr;
-    transform: none;
-    width: 90%;
-    gap: 20px;
-  }
-  .education-icon {
-    border-right: none;
-    flex-direction: column;
-    text-align: center;
-  }
-  .featured-img {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 20px;
-    gap: 30px;
-  }
-  .featured-img img {
-    height: 700px;
-  }
-  .section2 {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 200px;
-  }
+    /*== HOME ==*/
+    .container {
+        width: 95%;
+        margin: 20px auto;
+    }
+    .nav {
+        padding: 20px;
+    }
 
-  .details {
-    border: none;
-  }
+    .about-head {
+        justify-self: center;
+    }
+    .hideOnMobile {
+        display: none;
+    }
+    .menu-button {
+        display: block;
+    }
+    nav ul {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        gap: 15px;
+    }
+    nav ul a {
+        padding: 10px;
+        font-size: 1rem;
+    }
+    nav {
+        align-items: center;
+        display: flex;
+        margin: -30px -20px;
+        padding: 0;
+    }
+    .sidebar li {
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+    nav img {
+        margin: 1rem;
+    }
+    .hamburger {
+        font-size: 50px;
+    }
+    .hamburger2 {
+        font-size: 50px;
+    }
+    .menu-button {
+        display: block;
+    }
+    h1 {
+        width: 100%;
+        margin: 15px auto;
+    }
+    .head {
+        font-size: 32px;
+        margin-bottom: 0px;
+    }
+    .log {
+        font-size: 25px;
+    }
+    .motto {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 7px;
+        font-family: "Montserrat", serif;
+    }
+    .shop {
+        transform: none;
+        padding: 0.7rem;
+        color: white;
+        background: green;
+    }
+    .first,
+    .fourth {
+        width: 50%;
+    }
+    .fourth {
+        font-size: 16px;
+    }
+    .first {
+        margin-top: 80px;
+        width: 50%;
+    }
+    .fash {
+        font-size: 22px;
+    }
+    .def,
+    .you {
+        font-size: 60px;
+    }
+    .explore,
+    .video {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 15px 0;
+    }
+    .aside {
+        grid-template-columns: 1fr;
+        transform: none;
+        width: 90%;
+        gap: 20px;
+    }
+    .fashion-education {
+        grid-template-columns: 1fr;
+        transform: none;
+        width: 90%;
+        gap: 20px;
+    }
+    .education-icon {
+        border-right: none;
+        flex-direction: column;
+        text-align: center;
+    }
+    .featured-img {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 20px;
+        gap: 30px;
+    }
+    .featured-img img {
+        height: 700px;
+    }
+    .section2 {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 200px;
+    }
 
-  .about {
-    flex-direction: column;
-  }
+    .details {
+        border: none;
+    }
 
-  .section3 .girl {
-    width: 100%;
-    height: auto;
-    margin: 0;
-  }
+    .about {
+        flex-direction: column;
+    }
 
-  .notes {
-    width: 100%;
-    margin: 30px 0;
-  }
+    .section3 .girl {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
 
-  .about4 {
-    margin: 0;
-  }
-  .info-line1 {
-    flex-direction: column;
-    padding: 20px 0;
-  }
+    .notes {
+        width: 100%;
+        margin: 30px 0;
+    }
 
-  .info1 {
-    width: 100%;
-    margin: 0;
-  }
+    .about4 {
+        margin: 0;
+    }
+    .info-line1 {
+        flex-direction: column;
+        padding: 20px 0;
+    }
 
-  .newsletter {
-    width: 100%;
-    margin: 20px 0 0;
-    transform: none;
-  }
+    .info1 {
+        width: 100%;
+        margin: 0;
+    }
 
-  .info-line2 {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .info-line2 img{
-    margin: 1rem auto;
-  }
+    .newsletter {
+        width: 100%;
+        margin: 20px 0 0;
+        transform: none;
+    }
 
-  .footer {
-    flex-direction: column;
-    margin-left: 0;
-    transform: none;
-    text-align: center;
-  }
+    .info-line2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .info-line2 img {
+        margin: 1rem auto;
+    }
 
-  /* --ABOUT US-- */
+    .footer {
+        flex-direction: column;
+        margin-left: 0;
+        transform: none;
+        text-align: center;
+    }
 
-  .about-hero {
-    padding: 20px;
-    width: 100%;
-    margin: 0;
-  }
-  .about-nav {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    display: flex;
-  }
-  .about-nav img {
-    margin-top: 5rem;
-  }
-  .about-nav h1 {
-    width: 100%;
-    margin: 15px auto;
-  }
-  .about-first {
-    font-size: 50px;
-  }
-  .about-sec {
-    font-size: 50px;
-  }
-  .about-hero1 p {
-    width: 100%;
-  }
-  .about-main {
-    flex-direction: column-reverse;
-  }
-  .about-mission {
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-  .about-mission1 {
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-  }
-  .about-value{
-    margin: 30px;
-  }
+    /* --ABOUT US-- */
 
-  .about-value-content {
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-  }
-  .about-value-content div {
-    border-right: none !important;
-  }
-  .timeline {
-    flex-wrap: wrap;
-    padding: 10px;
-    margin: 10px;
-    gap: 10px;
-    justify-content: center;
-  }
-  .journey{
-    margin: 30px;
-    padding: 30px;
-  }
-  .item {
-    width: 100%;
-    padding: 15px;
-    border-radius: 20px;
-    border: 1px solid green;
-  }
-  .about-reason-content {
-    flex-direction: column;
-  }
-  .item1 {
-    justify-items: center;
-    text-align: center;
-    padding: 15px;
-    border-radius: 20px;
-    border: 1px solid green;
-  }
-  .about-footer1 .explore {
-    width: 300px;
-    justify-self: center;
-  }
-  .copyright{
-    font-size: 15px;
-  }
-  
-  /*==== Fashion Education ====*/
-  .fashion-education-hero{
-    padding: 20px;
-  }
-  .fashion-fash{
-    font-size: 20px;
-  }
-  .fashion-def{
-    font-size: 50px;
-  }
-  .fashion-you{
-    font-size: 50px;
-  }
-  .fashion-fourth{
-    font-size: 1rem;
-  }
-  .fashion-explore{
-    font-size: 16px;
-    padding: 10px;
-  }
-  .fashion-education-main{
-    flex-direction: column;
-  }
-  .fashion-edu-learn h2{
-    font-size: 50px;
-  }
-  .fashion-edu-learn > div{
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .fashion-edu-approach h2{
-    font-size: 50px;
-  }
-  .fashion-edu-approach > div{
-    margin: 1rem auto;
-    justify-content: center;
-  }
-  .fashion-education-whychoose h2{
-    font-size: 50px;
-  }
-  .fashion-edu-whychoose > div{
-    grid-template-columns: repeat(3, 1fr);
-    margin: 1rem auto;
-    justify-content: center;
-  }
-  .edu-whychoose{
-    margin-bottom: 10px;
-  }
-  .fashion-education-cta{
-    margin: 2rem;
-  }
-  .fashion-education-cta h2{
-    font-size: 30px;
-  }
-  .fashion-education-cta button  {
-    font-size: 10px;
-    padding: 10px;
-  }
-  .fashion-education-cta div:last-child{
-   margin-left: auto;
-   margin-right: 20px;
-   margin-top: 40px;
- }
- 
- /*=== Contact Page ===*/
- .contact-hero nav{
-   margin: -30px;
- }
-  .contact-form{
-   margin: 10px;
-  }
-  input{
-    width: 100%;
-  }
-  textarea{
-    width: 100%;
-  }
-  
-  /*===== Collection Page ====*/
-  .collection-hero{
-    padding: 4rem 2rem;
-  }
-  .collection-hero nav{
-    margin: -70px -32px;
-    width: 100%;
-  }
-  .motto-collection{
-  font-size: 15px;
-    margin-top: 100px;
-    margin-bottom: 20px;
-    font-family: "Montserrat", serif;
-  }
-  .featured-images{
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .collection-def{
-    font-size: 60px;
-  }
- 
+    .about-hero {
+        padding: 20px;
+        width: 100%;
+        margin: 0;
+    }
+    .about-nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        display: flex;
+    }
+    .about-nav img {
+        margin-top: 5rem;
+    }
+    .about-nav h1 {
+        width: 100%;
+        margin: 15px auto;
+    }
+    .about-first {
+        font-size: 50px;
+    }
+    .about-sec {
+        font-size: 50px;
+    }
+    .about-hero1 p {
+        width: 100%;
+    }
+    .about-main {
+        flex-direction: column-reverse;
+    }
+    .about-mission {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .about-mission1 {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .about-value {
+        margin: 30px;
+    }
+
+    .about-value-content {
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+    }
+    .about-value-content div {
+        border-right: none !important;
+    }
+    .timeline {
+        flex-wrap: wrap;
+        padding: 10px;
+        margin: 10px;
+        gap: 10px;
+        justify-content: center;
+    }
+    .journey {
+        margin: 30px;
+        padding: 30px;
+    }
+    .item {
+        width: 100%;
+        padding: 15px;
+        border-radius: 20px;
+        border: 1px solid green;
+    }
+    .about-reason-content {
+        flex-direction: column;
+    }
+    .item1 {
+        justify-items: center;
+        text-align: center;
+        padding: 15px;
+        border-radius: 20px;
+        border: 1px solid green;
+    }
+    .about-footer1 .explore {
+        width: 300px;
+        justify-self: center;
+    }
+    .copyright {
+        font-size: 15px;
+    }
+
+    /*==== Fashion Education ====*/
+    .fashion-education-hero {
+        padding: 20px;
+    }
+    .fashion-fash {
+        font-size: 20px;
+    }
+    .fashion-def {
+        font-size: 50px;
+    }
+    .fashion-you {
+        font-size: 50px;
+    }
+    .fashion-fourth {
+        font-size: 1rem;
+    }
+    .fashion-explore {
+        font-size: 16px;
+        padding: 10px;
+    }
+    .fashion-education-main {
+        flex-direction: column;
+    }
+    .fashion-edu-learn h2 {
+        font-size: 50px;
+    }
+    .fashion-edu-learn > div {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .fashion-edu-approach h2 {
+        font-size: 50px;
+    }
+    .fashion-edu-approach > div {
+        margin: 1rem auto;
+        justify-content: center;
+    }
+    .fashion-education-whychoose h2 {
+        font-size: 50px;
+    }
+    .fashion-edu-whychoose > div {
+        grid-template-columns: repeat(3, 1fr);
+        margin: 1rem auto;
+        justify-content: center;
+    }
+    .edu-whychoose {
+        margin-bottom: 10px;
+    }
+    .fashion-education-cta {
+        margin: 2rem;
+    }
+    .fashion-education-cta h2 {
+        font-size: 30px;
+    }
+    .fashion-education-cta button {
+        font-size: 10px;
+        padding: 10px;
+    }
+    .fashion-education-cta div:last-child {
+        margin-left: auto;
+        margin-right: 20px;
+        margin-top: 40px;
+    }
+
+    /*=== Contact Page ===*/
+    .contact-hero nav {
+        margin: -30px;
+    }
+    .contact-form {
+        margin: 30px auto;
+        width: 90%;
+        a
+    }
+    input {
+        width: 100%;
+    }
+    textarea {
+        width: 100%;
+    }
+    .contact-section{
+      flex-direction: column;
+    }
+    .contact-cards{
+      width: 90%;
+      margin: 20px auto;
+    }
+
+    /*===== Collection Page ====*/
+    .collection-hero {
+        padding: 4rem 2rem;
+    }
+    .collection-hero nav {
+        margin: -70px -32px;
+        width: 100%;
+    }
+    .motto-collection {
+        font-size: 15px;
+        margin-top: 100px;
+        margin-bottom: 20px;
+        font-family: "Montserrat", serif;
+    }
+    .featured-images {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .collection-def {
+        font-size: 60px;
+    }
 }
 
 /*=====SMALL PHONES======*/
 /* --HOME-- */
 @media (max-width: 480px) {
-  .container {
-    width: 95%;
-    margin: 20px auto;
-  }
-  nav {
-    align-items: center;
-    margin: -20px -20px !important
-    
-  }
-  nav img {
-    margin: 0 auto;
-    width: 50px;
-    height: 50px;
-    padding-left: 10px;
-  }
-  .hamburger {
-  font-size: 30px;
-}
-.hamburger2{
-  font-size: 30px;
-}
-.nav {
-    background-image: none;
-  }
-  nav {
-    margin-left: 0;
-    display: flex;
-    padding: 0;
-    gap: 15px;
-  }
-  .sidebar li{
-    padding-left: 20px;
-    padding-bottom: 10px;
-  }
+    .container {
+        width: 95%;
+        margin: 20px auto;
+    }
+    nav {
+        align-items: center;
+        margin: -20px -20px !important;
+    }
+    nav img {
+        margin: 0 auto;
+        width: 50px;
+        height: 50px;
+        padding-left: 10px;
+    }
+    .hamburger {
+        font-size: 30px;
+    }
+    .hamburger2 {
+        font-size: 30px;
+    }
+    .nav {
+        background-image: none;
+    }
+    nav {
+        margin-left: 0;
+        display: flex;
+        padding: 0;
+        gap: 15px;
+    }
+    .sidebar li {
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
 
-  nav a {
-    padding: 10px;
-    font-size: 16px;
-  }
+    nav a {
+        padding: 10px;
+        font-size: 16px;
+    }
 
-  h1 {
-    width: 100%;
-    margin: 15px 0;
-  }
+    h1 {
+        width: 100%;
+        margin: 15px 0;
+    }
 
-  .head {
-    font-size: 20px;
-    margin-bottom: -10px;
-  }
-  .log {
-    font-size: 15px;
-  }
-  .nav {
-    background-image: none;
-  }
+    .head {
+        font-size: 20px;
+        margin-bottom: -10px;
+    }
+    .log {
+        font-size: 15px;
+    }
+    .nav {
+        background-image: none;
+    }
 
-  nav a {
-    padding: 5px;
-    font-size: 16px;
-  }
+    nav a {
+        padding: 5px;
+        font-size: 16px;
+    }
 
-  .shop {
-    transform: none;
-  }
+    .shop {
+        transform: none;
+    }
 
-  .first,
-  .fourth {
-    width: 100%;
-    font-size: 12px;
-  }
+    .first,
+    .fourth {
+        width: 100%;
+        font-size: 12px;
+    }
 
-  .first {
-    margin-top: 70px;
-  }
+    .first {
+        margin-top: 70px;
+    }
 
-  .fash {
-    font-size: 15px;
-  }
+    .fash {
+        font-size: 15px;
+    }
 
-  .def,
-  .you {
-    font-size: 40px;
-  }
-  .motto{
-    font-size: 1.2rem;
-    font-family: "Montserrat", serif;
-  }
+    .def,
+    .you {
+        font-size: 40px;
+    }
+    .motto {
+        font-size: 1.2rem;
+        font-family: "Montserrat", serif;
+    }
 
-  .explore,
-  .video {
-    display: block;
-    width: 100%;
-    text-align: center;
-    margin: 15px 0;
-    font-size: 13px;
-    padding: 10px;
-  }
+    .explore,
+    .video {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 15px 0;
+        font-size: 13px;
+        padding: 10px;
+    }
 
-  .aside {
-    grid-template-columns: 1fr;
-    transform: none;
-    width: 90%;
-    gap: 20px;
-  }
-  .aside img {
-    height: 50px;
-    width: 50px;
-  }
-  .aside p {
-    font-size: 10px;
-  }
+    .aside {
+        grid-template-columns: 1fr;
+        transform: none;
+        width: 90%;
+        gap: 20px;
+    }
+    .aside img {
+        height: 50px;
+        width: 50px;
+    }
+    .aside p {
+        font-size: 10px;
+    }
 
-  .fashion-education {
-    grid-template-columns: 1fr;
-    transform: none;
-    width: 90%;
-    gap: 20px;
-  }
-  .fashion-education img {
-    height: 50px;
-    width: 50px;
-  }
-  .fashion-education span {
-    font-size: 20px;
-  }
-  .fashion-education h2 {
-    font-size: 20px;
-  }
-  .fashion-education p,
-  li {
-    font-size: 16px;
-  }
-  .fashion-education a {
-    font-size: 16px;
-  }
-  .education-icon {
-    border-right: none;
-    flex-direction: column;
-    text-align: center;
-  }
-  .topic p {
-    font-size: 20px;
-  }
-  .topic h3 {
-    font-size: 20px;
-  }
+    .fashion-education {
+        grid-template-columns: 1fr;
+        transform: none;
+        width: 90%;
+        gap: 20px;
+    }
+    .fashion-education img {
+        height: 50px;
+        width: 50px;
+    }
+    .fashion-education span {
+        font-size: 20px;
+    }
+    .fashion-education h2 {
+        font-size: 20px;
+    }
+    .fashion-education p,
+    li {
+        font-size: 16px;
+    }
+    .fashion-education a {
+        font-size: 16px;
+    }
+    .education-icon {
+        border-right: none;
+        flex-direction: column;
+        text-align: center;
+    }
+    .topic p {
+        font-size: 20px;
+    }
+    .topic h3 {
+        font-size: 20px;
+    }
 
-  .featured-img {
-    grid-template-columns: 1fr;
-    margin: 20px;
-  }
-  .featured-img img {
-    height: 400px;
-  }
-  .featured-img .top {
-    font-size: 16px;
-  }
-  .featured-img .middle {
-    font-size: 13px;
-  }
-  .featured-img a {
-    font-size: 16px;
-  }
+    .featured-img {
+        grid-template-columns: 1fr;
+        margin: 20px;
+    }
+    .featured-img img {
+        height: 400px;
+    }
+    .featured-img .top {
+        font-size: 16px;
+    }
+    .featured-img .middle {
+        font-size: 13px;
+    }
+    .featured-img a {
+        font-size: 16px;
+    }
 
-  .section2 {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 200px;
-  }
-  marquee {
-    background: black;
-    margin-top: 70px;
-  }
-  .section2 .p1 {
-    font-size: 30px;
-  }
+    .section2 {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 200px;
+    }
+    marquee {
+        background: black;
+        margin-top: 70px;
+    }
+    .section2 .p1 {
+        font-size: 30px;
+    }
 
-  .details {
-    border: none;
-  }
-  .image-container .girl {
-    height: 300px;
-    width: 100%;
-    margin: 0;
-  }
-  .section3 {
-    margin-left: 3rem;
-    margin-right: 3rem;
-  }
-  .about {
-    flex-direction: column;
-  }
-  .notes .about1 {
-    font-size: 20px;
-  }
-  .notes .about2 {
-    font-size: 20px;
-  }
-  .notes .about3 {
-    font-size: 13px;
-  }
-  .notes a {
-    font-size: 13px;
-  }
-  .notes {
-    width: 100%;
-    margin: 30px 0;
-  }
+    .details {
+        border: none;
+    }
+    .image-container .girl {
+        height: 300px;
+        width: 100%;
+        margin: 0;
+    }
+    .section3 {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .about {
+        flex-direction: column;
+    }
+    .notes .about1 {
+        font-size: 20px;
+    }
+    .notes .about2 {
+        font-size: 20px;
+    }
+    .notes .about3 {
+        font-size: 13px;
+    }
+    .notes a {
+        font-size: 13px;
+    }
+    .notes {
+        width: 100%;
+        margin: 30px 0;
+    }
 
-  .about4 {
-    margin: 0;
-    margin-left: -20px;
-    margin-top: 20px;
-  }
-  .about4 img {
-    height: 50px;
-    width: 50px;
-  }
-  .about4 p:first-child {
-    font-size: 16px;
-  }
-  .about4 p:last-child {
-    font-size: 13px;
-  }
-  .inbox img {
-    height: 120px;
-    width: 120px;
-  }
-  .inbox .p1 {
-    font-size: 20px;
-  }
-  .inbox .p2 {
-    font-size: 10px;
-  }
-  .inbox {
-    margin-bottom: 30px;
-  }
+    .about4 {
+        margin: 0;
+        margin-left: -20px;
+        margin-top: 20px;
+    }
+    .about4 img {
+        height: 50px;
+        width: 50px;
+    }
+    .about4 p:first-child {
+        font-size: 16px;
+    }
+    .about4 p:last-child {
+        font-size: 13px;
+    }
+    .inbox img {
+        height: 120px;
+        width: 120px;
+    }
+    .inbox .p1 {
+        font-size: 20px;
+    }
+    .inbox .p2 {
+        font-size: 10px;
+    }
+    .inbox {
+        margin-bottom: 30px;
+    }
 
-  .info-line1 {
-    flex-direction: column;
-    padding: 20px 0;
-  }
+    .info-line1 {
+        flex-direction: column;
+        padding: 20px 0;
+    }
 
-  .info1 {
-    width: 100%;
-    margin: 0;
-  }
+    .info1 {
+        width: 100%;
+        margin: 0;
+    }
 
-  .newsletter {
-    width: 100%;
-    margin: 20px 0 0;
-    transform: none;
-    display: flex;
-  }
-  .newsletter input {
-    min-width: 0;
-    flex: 1;
-    font-size: 14px;
-  }
-  .newsletter button {
-    padding: 0 15px;
-    white-space: nowrap;
-    font-size: 14px;
-  }
+    .newsletter {
+        width: 100%;
+        margin: 20px 0 0;
+        transform: none;
+        display: flex;
+    }
+    .newsletter input {
+        min-width: 0;
+        flex: 1;
+        font-size: 14px;
+    }
+    .newsletter button {
+        padding: 0 15px;
+        white-space: nowrap;
+        font-size: 14px;
+    }
 
-  .info-line2 {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .info-line2 img {
-    margin-left: 0 auto;
-  }
+    .info-line2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .info-line2 img {
+        margin-left: 0 auto;
+    }
 
-  .footer {
-    flex-direction: column;
-    margin-left: 0;
-    transform: none;
-    text-align: center;
-  }
-  .footer .h {
-    font-size: 20px;
-  }
-  .footer a {
-    font-size: 13px;
-  }
+    .footer {
+        flex-direction: column;
+        margin-left: 0;
+        transform: none;
+        text-align: center;
+    }
+    .footer .h {
+        font-size: 20px;
+    }
+    .footer a {
+        font-size: 13px;
+    }
 
-  /*====== About Page =======*/
-  .about-hero img{
-    width: 60px;
-    height: 60px;
-    margin-right: 0;
-  }
-  .about-nav {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .about-nav img {
-    margin-left: 30px;
-  }
-  .about-topic {
-    font-size: 20px;
-    padding-bottom: 20px;
-  }
-  .about-first {
-    font-size: 30px;
-  }
-  .about-sec {
-    font-size: 30px;
-  }
-  .about-third {
-    font-size: 14px !important;
-    margin: 0 auto;
-  }
-  .about-main1 {
-    margin-right: 20px;
-  }
-  .about-main img {
-    width: 300px;
-    height: 300px;
-  }
-  .about-main p:first-of-type {
-    font-size: 15px;
-  }
-  .about-main h2 {
-    font-size: 30px !important;
-  }
-  .about-main p:nth-of-type(2) {
-    font-size: 10px;
-  }
-  .about-main p:last-of-type {
-    font-size: 10px;
-  }
-  .about-mission {
-    padding: 20px;
-  }
-  .about-mission h2 {
-    font-size: 15px;
-  }
-  .about-mission img {
-    width: 50px;
-    height: 50px;
-    margin: 5px;
-  }
-  .mission h3 {
-    font-size: 13px;
-  }
-  .mission p {
-    font-size: 10px;
-  }
-  .vision h3 {
-    font-size: 13px;
-  }
-  .vision p {
-    font-size: 10px;
-  }
-  .about-value h2 {
-    font-size: 15px;
-  }
-  .about-value img {
-    width: 50px;
-    height: 50px;
-  }
-  .about-value-content h3 {
-    font-size: 13px;
-  }
-  .about-value-content p {
-    font-size: 10px;
-  }
-  .journey {
-    padding: 30px;
-  }
-  .journey h2 {
-    font-size: 15px;
-  }
-  .timeline {
-    flex-wrap: nowrap;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-  .timeline h4,
-  p {
-    font-size: 10px;
-  }
-  .about-reason h2 {
-    font-size: 15px;
-  }
-  .about-reason img {
-    width: 50px;
-    height: 50px;
-  }
-  .about-reason-content h3 {
-    font-size: 15px;
-  }
-  .about-reason-content p {
-    font-size: 10px;
-  }
-  .about-footer1 h2 {
-    font-size: 25px;
-  }
-  .about-footer1 .explore {
-    font-size: 10px;
-  }
-  .copyright{
-    font-size: 5px;
-  }
-  
-  /*==== Fashion Education ====*/
-  .fashion-fash{
-    font-size: 16px;
-  }
-  .fashion-def{
-    font-size: 30px;
-  }
-  .fashion-you{
-    font-size: 30px;
-  }
-  .fashion-fourth{
-    font-size: 10px;
-  }
-  .fashion-explore{
-    font-size: 10px;
-  }
-  .fashion-education-main1 h3{
-    font-size: 16px;
-  }
-  .fashion-education-main1 h2{
-    font-size: 40px;
-    padding-bottom: 20px;
-  }
-  .fashion-education-main1 p:first-of-type{
-    font-size: 16px;
-  }
-  .fashion-education-main1 p:nth-of-type(2){
-    font-size: 16px; 
-  }
-  .fashion-education-main2 {
-    grid-template-columns: 1fr;
-  }
-  .fashion-edu-learn > div{
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .fashion-edu img{
-    width: 60px;
-    height: 60px;
-  }
-  .fashion-edu-learn h2{
-    font-size: 30px;
-  }
-  .edu-learn img{
-    width: 50px;
-    height: 50px;
-  }
-  .edu-learn h3{
-    font-size: 13px;
-  }
-  .edu-learn p{
-    font-size: 10px;
-  }
-  .fashion-edu-approach h2{
-    font-size: 30px;
-  }
-  .fashion-edu-approach > div{
-    grid-template-columns: repeat(2,1fr);
-  }
-  .fashion-edu-whychoose h2{
-    font-size: 30px;
-  }
-  .fashion-edu-whychoose > div{
-    grid-template-columns: 1fr;
-  }
-  .fashion-education-cta{
-    margin: 1rem ;
-  }
-  .fashion-education-cta h2{
-    font-size: 16px;
-  }
-  .fashion-education-cta button{
-    font-size: 5px;
-    padding: 5px;
-  }
-  .fashion-education-cta div:last-child{
-    margin-left: auto;
-    margin-right: 5px;
-    margin-top: 30px;
-  }
-  
-  
-  /*=== Contact Page ===*/
-  .contact-hero nav{
-    margin: -30px !important;
-  }
-  .contact-hero img{
-    width: 60px;
-    height: 60px;
-    margin-right: 0;
-  }
-  .contact-form h2{
-    font-size: 1.5rem;
-  } 
-  .contact-form p{
-    font-size: 1rem;
-  }
-  label{
-    font-size: 1rem;
-  }
-  
-  
-  /*==== Collection Page =====*/
-  .collection-hero nav{
-    margin: -70px -32px !important;
-  }
-.collection-def{
-    font-size: 30px;
-  }
-.collection-fourth{
-    font-size: 10px;
-  }
-  .collection-explore{
-    font-size: 10px;
-    padding: 10px;
-  }
-  .featured-collection-section h2{
-    font-size: 30px;
-  }
-  .featured-images{
-    grid-template-columns: 1fr;
-  }
+    /*====== About Page =======*/
+    .about-hero img {
+        width: 60px;
+        height: 60px;
+        margin-right: 0;
+    }
+    .about-nav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-nav img {
+        margin-left: 30px;
+    }
+    .about-topic {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    .about-first {
+        font-size: 30px;
+    }
+    .about-sec {
+        font-size: 30px;
+    }
+    .about-third {
+        font-size: 14px !important;
+        margin: 0 auto;
+    }
+    .about-main1 {
+        margin-right: 20px;
+    }
+    .about-main img {
+        width: 300px;
+        height: 300px;
+    }
+    .about-main p:first-of-type {
+        font-size: 15px;
+    }
+    .about-main h2 {
+        font-size: 30px !important;
+    }
+    .about-main p:nth-of-type(2) {
+        font-size: 10px;
+    }
+    .about-main p:last-of-type {
+        font-size: 10px;
+    }
+    .about-mission {
+        padding: 20px;
+    }
+    .about-mission h2 {
+        font-size: 15px;
+    }
+    .about-mission img {
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+    }
+    .mission h3 {
+        font-size: 13px;
+    }
+    .mission p {
+        font-size: 10px;
+    }
+    .vision h3 {
+        font-size: 13px;
+    }
+    .vision p {
+        font-size: 10px;
+    }
+    .about-value h2 {
+        font-size: 15px;
+    }
+    .about-value img {
+        width: 50px;
+        height: 50px;
+    }
+    .about-value-content h3 {
+        font-size: 13px;
+    }
+    .about-value-content p {
+        font-size: 10px;
+    }
+    .journey {
+        padding: 30px;
+    }
+    .journey h2 {
+        font-size: 15px;
+    }
+    .timeline {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .timeline h4,
+    p {
+        font-size: 10px;
+    }
+    .about-reason h2 {
+        font-size: 15px;
+    }
+    .about-reason img {
+        width: 50px;
+        height: 50px;
+    }
+    .about-reason-content h3 {
+        font-size: 15px;
+    }
+    .about-reason-content p {
+        font-size: 10px;
+    }
+    .about-footer1 h2 {
+        font-size: 25px;
+    }
+    .about-footer1 .explore {
+        font-size: 10px;
+    }
+    .copyright {
+        font-size: 5px;
+    }
+
+    /*==== Fashion Education ====*/
+    .fashion-fash {
+        font-size: 16px;
+    }
+    .fashion-def {
+        font-size: 30px;
+    }
+    .fashion-you {
+        font-size: 30px;
+    }
+    .fashion-fourth {
+        font-size: 10px;
+    }
+    .fashion-explore {
+        font-size: 10px;
+    }
+    .fashion-education-main1 h3 {
+        font-size: 16px;
+    }
+    .fashion-education-main1 h2 {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    .fashion-education-main1 p:first-of-type {
+        font-size: 16px;
+    }
+    .fashion-education-main1 p:nth-of-type(2) {
+        font-size: 16px;
+    }
+    .fashion-education-main2 {
+        grid-template-columns: 1fr;
+    }
+    .fashion-edu-learn > div {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .fashion-edu img {
+        width: 60px;
+        height: 60px;
+    }
+    .fashion-edu-learn h2 {
+        font-size: 30px;
+    }
+    .edu-learn img {
+        width: 50px;
+        height: 50px;
+    }
+    .edu-learn h3 {
+        font-size: 13px;
+    }
+    .edu-learn p {
+        font-size: 10px;
+    }
+    .fashion-edu-approach h2 {
+        font-size: 30px;
+    }
+    .fashion-edu-approach > div {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .fashion-edu-whychoose h2 {
+        font-size: 30px;
+    }
+    .fashion-edu-whychoose > div {
+        grid-template-columns: 1fr;
+    }
+    .fashion-education-cta {
+        margin: 1rem;
+    }
+    .fashion-education-cta h2 {
+        font-size: 16px;
+    }
+    .fashion-education-cta button {
+        font-size: 5px;
+        padding: 5px;
+    }
+    .fashion-education-cta div:last-child {
+        margin-left: auto;
+        margin-right: 5px;
+        margin-top: 30px;
+    }
+
+    /*=== Contact Page ===*/
+    .contact-hero nav {
+        margin: -30px !important;
+    }
+    .contact-hero img {
+        width: 60px;
+        height: 60px;
+        margin-right: 0;
+    }
+    .contact-form h2 {
+        font-size: 1.5rem;
+    }
+    .contact-form p {
+        font-size: 1rem;
+    }
+    label {
+        font-size: 1rem;
+    }
+
+    /*==== Collection Page =====*/
+    .collection-hero nav {
+        margin: -70px -32px !important;
+    }
+    .collection-def {
+        font-size: 30px;
+    }
+    .collection-fourth {
+        font-size: 10px;
+    }
+    .collection-explore {
+        font-size: 10px;
+        padding: 10px;
+    }
+    .featured-collection-section h2 {
+        font-size: 30px;
+    }
+    .featured-images {
+        grid-template-columns: 1fr;
+    }
 }
