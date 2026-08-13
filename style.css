@@ -1096,12 +1096,12 @@ input {
     border-radius: 20px;
     padding: 20px;
     font-size: 1rem;
-    width: 80%;
+    width: 100%;
     margin-bottom: 30px;
     margin-top: 10px;
 }
 textarea {
-    width: 80%;
+    width: 100%;
     min-height: 150px;
     border-radius: 20px;
     padding: 20px;
@@ -1109,19 +1109,46 @@ textarea {
     margin-top: 10px;
     border: 3px solid green;
 }
-.submit-button {
-    margin-top: 30px;
-    width: 10rem;
-    border-radius: 5px;
-    background: black;
-    color: white;
-    padding: 1rem;
+.send-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  width: 190px;
+  width: 100%;
+  margin: 30px auto;
+  padding: 14px 24px;
+
+  background: #168a45;
+  color: #fff;
+
+  border: none;
+  border-radius: 8px;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  box-shadow: 0 6px 15px rgba(22, 138, 69, 0.25);
+
+  transition: all 0.3s ease;
 }
 
-.submit-button:hover {
-    color: white;
-    background: green;
-    cursor: pointer;
+.send-btn i {
+  font-size: 13px;
+}
+
+.send-btn:hover {
+  background: #0f6f37;
+  transform: translateY(-2px);
+  box-shadow: 0 9px 20px rgba(22, 138, 69, 0.3);
+}
+
+.send-btn:active {
+  transform: translateY(0);
 }
 
 /*===FASHION EDUCATION ====*/
