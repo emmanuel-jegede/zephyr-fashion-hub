@@ -1016,7 +1016,7 @@ marquee {
 
 .contact-card:hover {
     transform: translateY(-2px);
-    border-color: #2e7d32;
+    border-color: green;
     box-shadow: 0 8px 20px rgba(46, 125, 50, 0.1);
 }
 
@@ -1038,22 +1038,22 @@ marquee {
 /* ICON COLORS */
 .email {
     background: #e8f5e9;
-    color: #1b5e20;
+    color: green;
 }
 
 .whatsapp {
     background: #e6f4ea;
-    color: #168a45;
+    color: green;
 }
 
 .phone {
     background: #e8f5e9;
-    color: #2e7d32;
+    color: green;
 }
 
 .location {
     background: #eef5e8;
-    color: #4f772d;
+    color: green;
 }
 /* TEXT */
 .contact-info {
@@ -1120,7 +1120,7 @@ textarea {
   margin: 30px auto;
   padding: 14px 24px;
 
-  background: #168a45;
+  background: green;
   color: #fff;
 
   border: none;
@@ -1142,7 +1142,7 @@ textarea {
 }
 
 .send-btn:hover {
-  background: #0f6f37;
+  background: green;
   transform: translateY(-2px);
   box-shadow: 0 9px 20px rgba(22, 138, 69, 0.3);
 }
