@@ -130,7 +130,9 @@ nav ul a {
 }
 nav ul a:hover {
     color: green;
-    border-bottom: 4px solid green;
+}
+nav ul a.active{
+  border-bottom: 2px solid green;
 }
 .sidebar {
     position: fixed;
@@ -2002,6 +2004,9 @@ textarea {
         padding: 10px;
         font-size: 1rem;
     }
+    nav ul a:hover{
+      border-bottom: 2px solid green;
+    }
     nav {
         align-items: center;
         display: flex;
@@ -2012,6 +2017,43 @@ textarea {
         padding-left: 20px;
         padding-bottom: 10px;
     }
+
+.sidebar li:not(:first-child) {
+    width: 100%;
+}
+
+.sidebar li:not(:first-child) a {
+    display: block;
+    width: 100%;
+    padding: 18px 20px;
+    color: black;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.sidebar li:not(:first-child) a:active {
+    background: rgba(15, 107, 61, 0.12);
+}
+
+.sidebar li.active a {
+    background: #0F6B3D;
+    color: white;
+}
+
+.sidebar li:first-child a {
+    background: transparent;
+    color: black;
+    padding: 1rem;
+    border-radius: 0;
+}
+
+.sidebar li:first-child a:hover,
+.sidebar li:first-child a:active {
+    background: transparent;
+    color: black;
+    border: none;
+}
     nav img {
         margin: 1rem;
     }
