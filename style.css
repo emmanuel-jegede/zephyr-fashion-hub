@@ -2091,7 +2091,7 @@ textarea {
     }
     .first,
     .fourth {
-        width: 50%;
+        width: 60%;
     }
     .fourth {
         font-size: 16px;
@@ -2101,7 +2101,7 @@ textarea {
         width: 50%;
     }
     .fash {
-        font-size: 22px;
+        font-size: 16px;
     }
     .def,
     .you {
@@ -2572,6 +2572,9 @@ textarea {
     .def,
     .you {
         font-size: 40px;
+    }
+    .you{
+      display: block;
     }
     .motto {
         font-size: 1.2rem;
