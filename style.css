@@ -2051,8 +2051,8 @@ textarea {
 }
 
 .sidebar li.active a {
-    background: #0F6B3D;
     color: white;
+    background: var(--primary);
 }
 
 .sidebar li:first-child a {
