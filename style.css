@@ -790,6 +790,11 @@ marquee {
     margin: 30px;
     padding: 50px;
     border-radius: 30px;
+    transition: 0.3s ease;
+    box-shadow: 0 8px 25px rgba(0, 255, 100, 0.12);
+}
+.about-mission:hover{
+  transform: translateY(-3px);
 }
 .about-mission h2 {
     color: white;
@@ -857,6 +862,11 @@ marquee {
     padding: 40px;
     border-radius: 30px;
     margin: 10rem 10rem;
+    transition: 0.3s ease;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+.about-value:hover{
+  transform: translateY(-3px);
 }
 .about-value h2 {
     text-align: center;
@@ -904,6 +914,11 @@ marquee {
     padding: 50px 100px;
     margin: 7rem 10rem;
     border-radius: 30px;
+    transition: 0.3s ease;
+    box-shadow: 0 8px 25px rgba(0, 255, 100, 0.12);
+}
+.journey:hover{
+  transform: translateY(-3px);
 }
 .journey h2 {
     text-align: center;
