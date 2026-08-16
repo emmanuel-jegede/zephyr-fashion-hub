@@ -86,11 +86,12 @@
                     Fill out the form and our team would get back to you as soon
                     as possible.
                 </p>
-                <form action="submit" method="post">
+                <form action="https://formspree.io/f/xzepaklz" method="POST">
                     <label for="name">Name:</label>
                     <input
                         type="text"
                         id="name"
+                        name="name"
                         autocomplete="off"
                         placeholder="eg. John Doe"
                         required
@@ -99,6 +100,7 @@
                     <input
                         type="email"
                         id="email"
+                        name="email"
                         autocomplete="off"
                         placeholder="example@example.com"
                         required
@@ -107,6 +109,7 @@
                     <input
                         type="text"
                         id="subject"
+                        name="subject"
                         placeholder="subject here..."
                         required
                     />
