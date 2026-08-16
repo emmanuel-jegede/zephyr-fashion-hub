@@ -17,10 +17,10 @@ body {
     margin: 0px auto;
     width: 100%;
 }
-.motto {
+//.motto {
     color: white;
     font-size: 1.75rem;
-    margin-top: 1.5rem;
+    margin-top: rem;
     font-family: "Montserrat", serif;
 }
 nav {
@@ -695,8 +695,8 @@ marquee {
     margin-right: 10px;
 }
 .about-hero1 {
-    margin-top: 100px;
-    margin-left: 20px;
+    margin-top: 150px;
+    margin-left: 0px;
 }
 .about-topic {
     color: var(--primary);
@@ -1476,7 +1476,7 @@ textarea {
 }
 
 /*====Collection Page ===*/
-.motto-collection {
+.//motto-collection {
     margin-bottom: 10rem;
     color: white;
     font-size: 1.75rem;
@@ -1484,7 +1484,7 @@ textarea {
 }
 .collection-hero {
     background: black;
-    padding: 40px;
+    padding: 70px;
     background-image: url("./assets/images/fashionedu.png");
     background-repeat: no-repeat;
     background-position: right 0rem top 0rem;
@@ -1494,6 +1494,7 @@ textarea {
     color: white;
     font-size: 100px;
     font-weight: bold;
+    margin-top: 150px;
     font-family: "GFS Didot", serif;
 }
 .collection-fourth {
@@ -2097,7 +2098,7 @@ textarea {
         font-size: 16px;
     }
     .first {
-        margin-top: 80px;
+        margin-top: 150px;
         width: 50%;
     }
     .fash {
@@ -2183,24 +2184,6 @@ textarea {
         transform: none;
     }
 
-    /*.info-line2 {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    .info-line2 img {
-        margin: 1rem auto;
-    }
-
-    .footer {
-        flex-direction: column;
-        display: grid;
-        margin-left: 0;
-        transform: none;
-        text-align: center;
-    }*/
-
-    /* ===== PROFESSIONAL MOBILE FOOTER ===== */
 
     .info-line2 {
         display: flex;
@@ -2562,7 +2545,7 @@ textarea {
     }
 
     .first {
-        margin-top: 70px;
+        margin-top: 100px;
     }
 
     .fash {
@@ -3013,6 +2996,7 @@ textarea {
     }
     .collection-def {
         font-size: 30px;
+        margin-top: 100px;
     }
     .collection-fourth {
         font-size: 10px;
