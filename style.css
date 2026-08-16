@@ -1298,14 +1298,12 @@ textarea {
     padding-bottom: 30px;
     font-size: 22px;
     font-family: "Montserrat", serif;
-    font-weight: bold;
 }
 .fashion-education-main1 p:nth-of-type(2) {
     max-width: 500px;
     width: 100%;
     font-size: 22px;
     font-family: "Montserrat", serif;
-    font-weight: bold;
 }
 .fashion-education-main2 {
     display: grid;
