@@ -1512,12 +1512,6 @@ textarea {
 }
 
 /*====Collection Page ===*/
-.//motto-collection {
-    margin-bottom: 10rem;
-    color: white;
-    font-size: 1.75rem;
-    margin-top: 1.5rem;
-}
 .collection-hero {
     background: black;
     padding: 70px;
@@ -1572,7 +1566,6 @@ textarea {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     justify-content: center;
-    align-items: center;
     margin: 30px 60px;
 }
 .featured-images > div {
@@ -1677,9 +1670,6 @@ textarea {
     nav ul a {
         padding: 10px;
         font-size: 10px;
-    }
-    .motto {
-        font-size: 14px;
     }
     .fash {
         font-size: 1rem;
