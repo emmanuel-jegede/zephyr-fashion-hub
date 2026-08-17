@@ -83,3 +83,32 @@ if (contactForm) {
     });
 
 }
+// Reset the whole contact form when the page is shown again
+window.addEventListener("pageshow", function () {
+
+    const contactForm = document.querySelector(".contact-form");
+
+    if (contactForm) {
+
+        // Clear all form fields
+        contactForm.reset();
+
+        // Reset the character counter
+        const messageCounter =
+            document.querySelector(".message-counter");
+
+        if (messageCounter) {
+            messageCounter.textContent = "0 / 500 characters";
+        }
+
+        // Reset the submit button
+        const submitButton =
+            contactForm.querySelector('button[type="submit"]');
+
+        if (submitButton) {
+            submitButton.disabled = false;
+            submitButton.textContent = "SEND MESSAGE";
+        }
+    }
+
+});
