@@ -86,7 +86,7 @@ if (contactForm) {
 // Reset the whole contact form when the page is shown again
 window.addEventListener("pageshow", function () {
 
-    const contactForm = document.querySelector(".contact-form");
+    const contactForm = document.querySelector(".contact-form form");
 
     if (contactForm) {
 
@@ -107,7 +107,7 @@ window.addEventListener("pageshow", function () {
 
         if (submitButton) {
             submitButton.disabled = false;
-            submitButton.textContent = "SEND MESSAGE";
+            submitButton.textContent = "Send Message";
         }
     }
 
