@@ -40,3 +40,46 @@ function hideSidebar() {
       });
       
     });
+    
+// ===== CONTACT FORM =====
+
+const contactForm = document.querySelector(".contact-form");
+const messageBox = document.querySelector("#message");
+const messageCounter = document.querySelector(".message-counter");
+
+
+// Count the message characters
+if (messageBox && messageCounter) {
+
+    messageBox.addEventListener("input", function () {
+
+        const numberOfCharacters = messageBox.value.length;
+
+        messageCounter.textContent =
+            numberOfCharacters + " / 500 characters";
+
+    });
+
+}
+
+
+// Handle the form submission
+if (contactForm) {
+
+    contactForm.addEventListener("submit", function () {
+
+        const submitButton = contactForm.querySelector(
+            'button[type="submit"]'
+        );
+
+        if (submitButton) {
+
+            submitButton.disabled = true;
+
+            submitButton.textContent = "SENDING...";
+
+        }
+
+    });
+
+}

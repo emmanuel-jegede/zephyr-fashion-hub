@@ -17,12 +17,6 @@ body {
     margin: 0px auto;
     width: 100%;
 }
-//.motto {
-    color: white;
-    font-size: 1.75rem;
-    margin-top: rem;
-    font-family: "Montserrat", serif;
-}
 nav {
     display: flex;
     align-items: center;
@@ -1092,6 +1086,35 @@ marquee {
     transform: translateY(-2px);
     border-color: green;
     box-shadow: 0 8px 20px rgba(46, 125, 50, 0.1);
+}
+/* ===== CONTACT FORM IMPROVEMENTS ===== */
+
+.contact-form input,
+.contact-form textarea {
+    transition: 0.3s ease;
+}
+
+/* What happens when you click inside an input */
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(15, 143, 79, 0.15);
+}
+
+/* Message counter */
+.message-counter {
+    display: block;
+    text-align: right;
+    margin-top: 5px;
+    color: #888;
+    font-size: 12px;
+}
+
+/* Submit button while sending */
+.contact-form button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
 }
 
 /* ICON BOX */
